@@ -1,4 +1,4 @@
-mixzo.github.cn
+mixzo.github.io
 ===============
 
 PROJECT×ZO
