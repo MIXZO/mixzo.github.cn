@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>DURE</title>
+    <meta charset="utf-8" />
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="title" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="MIXZO">
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta name="revisit-after" content="1" />
+    <meta name="robots" content="index,follow" />
+    <!-- <meta name="viewport" content="width=device-width,user-scalable=no"> -->
+    <script>
+        if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
+            var version = parseFloat(RegExp.$1);
+            if(version>2.3){
+                var phoneScale = parseInt(window.screen.width)/640;
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        }else{
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="loading" class="loading">
+        <div class="circle01"></div>
+        <div class="circle02"></div>
+    </div>
+    <div id="pageWrap">
+        <div id="content">
+            <div class="step-box step-1">
+                <div class="m-box">
+                    <span class="t">M</span><span class="t">I</span><span class="t">X</span><span class="t x"><span class="inner IR"><span class="relative-box"><i></i><b></b></span></span><span class="inner shadow IR"><span class="relative-box"><i></i><b></b></span></span></span><span class="t">Z</span><span class="t">O</span>
+                    <p class="t-s">LIVE 2015</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        $(function() {
+        });
+    </script>
+</body>
+</html>
