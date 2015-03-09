@@ -67,7 +67,7 @@ var common = (function($) {
 						_viewport.attr('content', 'width=' + _width + ', target-densitydpi=device-dpi');
 					}
 					// 其他系统
-				} else if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {}; {
+				} else {
 					_viewport.attr('content', 'width=640, user-scalable=no, target-densitydpi=device-dpi');
 				}
 
