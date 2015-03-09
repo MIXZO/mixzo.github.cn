@@ -1,5 +1,5 @@
 ﻿/*reset*/
-html { -webkit-text-size-adjust: 100%; font-size: 62.5%; }
+html { -webkit-text-size-adjust: 100%; font-size: 62.5%; background-color: #000; }
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input,button, textarea, p, blockquote, th, td, hr { margin: 0; padding: 0; -webkit-box-sizing: border-box; }
 body { font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif, "Microsoft YaHei"; font-size: 14px; line-height: 1.5; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
@@ -83,20 +83,21 @@ body { margin: 0 auto; width: 640px; height: 100%; box-sizing: border-box; overf
 .transition-A2EIO { -webkit-transition: all 2s ease-in-out; }
 
 /*module*/
-#loading { position: fixed; width: 100%; height: 100%; left: 0; top: 0; background-color: #000; overflow: hidden; }
+#loading { position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 999; background-color: #000; overflow: hidden; }
 .loader {
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 0;
-  margin: -75px 0 0 -75px;
-  width: 150px;
-  height: 150px;
-  line-height: 150px;
+  margin: -100px 0 0 -100px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   font-family: PS2;
+  font-size: 24px;
   box-sizing: border-box;
   letter-spacing: 5px;
 }
@@ -110,7 +111,7 @@ body { margin: 0 auto; width: 640px; height: 100%; box-sizing: border-box; overf
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 100px;
+  border-radius: 200px;
   border: 5px solid #fff;
   box-shadow: 0 0 50px #fff, inset 0 0 50px #fff;
 }
@@ -138,22 +139,22 @@ body { margin: 0 auto; width: 640px; height: 100%; box-sizing: border-box; overf
 /*style*/
 #pageWrap, #content { margin: 0 auto; width: 100%; height: 100%; overflow: hidden; }
 
-.step-box { position: relative; z-index: 0; width: 640px; height: 100%; }
+.step-box, .chapters-box { position: relative; z-index: 0; width: 640px; height: 100%; background-color: #fff; display: none; }
 .step-box.show { z-index: 1; }
-.step-1 { text-align: center; }
-.step-1 .m-box { position: absolute; top: 50%; left: 0; margin-top: -50px; width: 100%; height: 100px; line-height: 100px; text-align: center; letter-spacing: 20px; text-shadow: 10px 10px 1px #ccc; }
-.step-1 .t { text-align: center; font-family: PS2; font-size: 100px; opacity: 0; transform: scale(0); -webkit-transform: scale(0); display: inline-block; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; }
-.step-1 .x { position: relative; width: 55px; height: 30px; text-shadow: none; }
-.step-1 .x .relative-box { width: 30px; height: 30px; display: block; }
-.step-1 .x .inner { position: absolute; top: -5px; left: 0; z-index: 1; width: 30px; height: 30px; display: inline-block; }
-.step-1 .x i, .step-1 .x b { position: absolute; top: 13px; left: 0px; width: 30px; height: 0; border-top: solid 4px #000; overflow: hidden; display: block; }
-.step-1 .x .shadow { top: 3px; left: 8px; z-index: 0; }
-.step-1 .x .shadow i, .step-1 .x .shadow b { border-color: #ccc; }
-.step-1 .x i { transform: rotate(0); -webkit-transform: rotate(0); }
-.step-1 .x b { transform: rotate(90deg); -webkit-transform: rotate(90deg); }
+.step-logo { text-align: center; }
+.step-logo .m-box { position: absolute; top: 50%; left: 0; margin-top: -50px; width: 100%; height: 100px; line-height: 100px; text-align: center; letter-spacing: 20px; text-shadow: 10px 10px 1px #ccc; display: none; }
+.step-logo .t { text-align: center; font-family: PS2; font-size: 100px; opacity: 0; transform: scale(0); -webkit-transform: scale(0); display: inline-block; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; }
+.step-logo .x { position: relative; width: 55px; height: 30px; text-shadow: none; }
+.step-logo .x .relative-box { width: 30px; height: 30px; display: block; }
+.step-logo .x .inner { position: absolute; top: -5px; left: 0; z-index: 1; width: 30px; height: 30px; display: inline-block; }
+.step-logo .x i, .step-logo .x b { position: absolute; top: 13px; left: 0px; width: 30px; height: 0; border-top: solid 4px #000; overflow: hidden; display: block; }
+.step-logo .x .shadow { top: 3px; left: 8px; z-index: 0; }
+.step-logo .x .shadow i, .step-logo .x .shadow b { border-color: #ccc; }
+.step-logo .x i { transform: rotate(0); -webkit-transform: rotate(0); }
+.step-logo .x b { transform: rotate(90deg); -webkit-transform: rotate(90deg); }
 @-webkit-keyframes x2d { 0% { transform: scale(0); -webkit-transform: scale(0); } 80% { transform: scale(1.5); -webkit-transform: scale(1.5); } 100% { transform: scale(1); -webkit-transform: scale(1); } }
 .x2d { animation: x2d .3s; -webkit-animation: x2d .3s; }
-.step-1 .x2d { transform: scale(1); -webkit-transform: scale(1); opacity: 1; }
+.step-logo .x2d { transform: scale(1); -webkit-transform: scale(1); opacity: 1; }
 @-webkit-keyframes IR { from { transform: rotate(0); -webkit-transform: rotate(0); } to { transform: rotate(360deg); -webkit-transform: rotate(360deg); } }
 .IR { animation: IR 5s linear 0 infinite; -webkit-animation: IR 5s linear 0 infinite; transform-origin: center; -webkit-transform-origin: center; }
-.step-1 .t-s { position: absolute; top: 70px; right: 90px; letter-spacing: 5px; font-family: PS2; font-size: 24px; text-shadow: 5px 5px 1px #ccc; display: none; }
+.step-logo .t-s { position: absolute; top: 70px; right: 90px; letter-spacing: 5px; font-family: PS2; font-size: 24px; text-shadow: 5px 5px 1px #ccc; display: none; }
