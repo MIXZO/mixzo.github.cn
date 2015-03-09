@@ -184,7 +184,7 @@ var common = (function($) {
 				setTimeout(function() {
 					objStep.find('.m-box').fadeOut('slow', function() {
 						closeLogo();
-						//window.location.href = 'chapters-01.htm';
+						window.location.href = 'chapters-01.htm';
 					});
 				}, 5000);
 			}
