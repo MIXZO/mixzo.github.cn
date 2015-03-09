@@ -181,12 +181,12 @@ var common = (function($) {
 				setTimeout(function() {
 					objBox.find('.t-s').fadeIn('slow');
 				}, 2000);
-				setTimeout(function() {
-					objStep.find('.m-box').fadeOut('slow', function() {
-						closeLogo();
-						window.location.href = 'chapters-01.htm';
-					});
-				}, 5000);
+				// setTimeout(function() {
+				// 	objStep.find('.m-box').fadeOut('slow', function() {
+				// 		closeLogo();
+				// 		//window.location.href = 'chapters-01.htm';
+				// 	});
+				// }, 5000);
 			}
 			logo_mixzo();
 		}
