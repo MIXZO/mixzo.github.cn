@@ -191,7 +191,7 @@
 					var music_01 = document.getElementById('music_01');
 					music_01.play();
 				}
-				musicFun();
+				//musicFun();
 
 				var playFun = function(index, direction) {
 					clearTimeout(t1);
