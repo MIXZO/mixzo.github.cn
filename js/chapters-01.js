@@ -1,10 +1,14 @@
 ﻿var chapters01 = (function($) {
 	var chapters01Fun = {
-			chapters_01: function() {	//chapters 01
+			step01: function() { //step-1
 				common.pageLoad(function() {
-					$('.chapters-box, .step-1').css('display', 'block').transition({
+					// $('.chapters-box, .step-1').css('display', 'block').transition({
+					// 	'opacity': '1'
+					// });
+					$('.chapters-box, .step-3').css('display', 'block').transition({
 						'opacity': '1'
 					});
+					chapters01Fun.step03();
 				});
 
 				var canvasFun = function() {
@@ -36,14 +40,14 @@
 						ctx.globalCompositeOperation = "destination-out";
 
 						canvas.addEventListener(tapstart, function(e) {
-							clearTimeout(timeout)
+							clearTimeout(timeout);
 							e.preventDefault();
 
-							x1 = hastouch ? e.targetTouches[0].pageX : e.clientX - canvas.offsetLeft;
-							y1 = hastouch ? e.targetTouches[0].pageY : e.clientY - canvas.offsetTop;
+							x1 = hastouch ? e.targetTouches[0].pageX : e.clientX - ($(window).width() - $('#cas_pb').width()) / 2;
+							y1 = hastouch ? e.targetTouches[0].pageY : e.clientY - ($(window).height() - $('#cas_pb').height()) / 2;
 
 							ctx.save();
-							ctx.beginPath()
+							ctx.beginPath();
 							ctx.arc(x1, y1, 1, 0, 2 * Math.PI);
 							ctx.fill();
 							ctx.restore();
@@ -65,21 +69,25 @@
 									}
 									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.4) {
 										$('#cas_pb').fadeOut('slow');
+										setTimeout(function() {
+											$('.step-1').fadeIn();
+											chapters01Fun.step03();
+										}, 1000);
 									}
-								}, totimes)
+								}, totimes);
 							});
 
 							function tapmoveHandler(e) {
-								clearTimeout(timeout)
-								e.preventDefault()
-								x2 = hastouch ? e.targetTouches[0].pageX : e.clientX - canvas.offsetLeft;
-								y2 = hastouch ? e.targetTouches[0].pageY : e.clientY - canvas.offsetTop;
+								clearTimeout(timeout);
+								e.preventDefault();
+								x2 = hastouch ? e.targetTouches[0].pageX : e.clientX - ($(window).width() - $('#cas_pb').width()) / 2;
+								y2 = hastouch ? e.targetTouches[0].pageY : e.clientY - ($(window).height() - $('#cas_pb').height()) / 2;
 
 								ctx.save();
 								ctx.moveTo(x1, y1);
 								ctx.lineTo(x2, y2);
 								ctx.stroke();
-								ctx.restore()
+								ctx.restore();
 
 								x1 = x2;
 								y1 = y2;
@@ -95,16 +103,16 @@
 							tapend = hastouch ? "touchend" : "mouseup";
 
 						canvas.addEventListener(tapstart, function(e) {
-							clearTimeout(timeout)
+							clearTimeout(timeout);
 							e.preventDefault();
 
 							x1 = hastouch ? e.targetTouches[0].pageX : e.clientX - canvas.offsetLeft;
 							y1 = hastouch ? e.targetTouches[0].pageY : e.clientY - canvas.offsetTop;
 
-							ctx.save()
-							ctx.beginPath()
+							ctx.save();
+							ctx.beginPath();
 							ctx.arc(x1, y1, a, 0, 2 * Math.PI);
-							ctx.clip()
+							ctx.clip();
 							ctx.clearRect(0, 0, canvas.width, canvas.height);
 							ctx.restore();
 
@@ -124,14 +132,18 @@
 										}
 									}
 									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.4) {
-										canvas.className = "noOp";
+										$('#cas_pb').fadeOut('slow');
+										setTimeout(function() {
+											$('.step-1').fadeIn();
+											chapters01Fun.step03();
+										}, 1000);
 									}
-								}, totimes)
+								}, totimes);
 
 							});
 
 							function tapmoveHandler(e) {
-								e.preventDefault()
+								e.preventDefault();
 								x2 = hastouch ? e.targetTouches[0].pageX : e.clientX - canvas.offsetLeft;
 								y2 = hastouch ? e.targetTouches[0].pageY : e.clientY - canvas.offsetTop;
 
@@ -146,21 +158,21 @@
 								var x6 = x2 - asin;
 								var y6 = y2 + acos;
 
-								ctx.save()
-								ctx.beginPath()
+								ctx.save();
+								ctx.beginPath();
 								ctx.arc(x2, y2, a, 0, 2 * Math.PI);
-								ctx.clip()
+								ctx.clip();
 								ctx.clearRect(0, 0, canvas.width, canvas.height);
 								ctx.restore();
 
-								ctx.save()
-								ctx.beginPath()
+								ctx.save();
+								ctx.beginPath();
 								ctx.moveTo(x3, y3);
 								ctx.lineTo(x5, y5);
 								ctx.lineTo(x6, y6);
 								ctx.lineTo(x4, y4);
 								ctx.closePath();
-								ctx.clip()
+								ctx.clip();
 								ctx.clearRect(0, 0, canvas.width, canvas.height);
 								ctx.restore();
 
@@ -171,12 +183,83 @@
 					}
 				}
 				canvasFun();
-
-				var step2 = function() {
+			},
+			step03: function() { //step-3
+				var objStep = $('.step-3');
+				var t1, t2;
+				objStep.fadeIn('slow');
+				var playFun = function(index, direction) {
+					clearTimeout(t1);
+					clearTimeout(t2);
+					var objNext = objStep.find('.item').eq(index);
+					objStep.find('.item.show').removeClass('show').transition({
+						rotateY: 0,
+						opacity: 0
+					});
+					objStep.find('.txt-box').hide().find('.txt').css({
+						'top': '-50px',
+						'opacity': '0'
+					});
+					var nextFun = function() {
+						objNext.addClass('show').css('transform', 'rotateY(0)').transition({
+							rotateY: 360,
+							opacity: 1
+						}, function() {
+							t1 = setTimeout(function() {
+								objNext.find('.txt-box').fadeIn('slow');
+							}, 1000);
+							t2 = setTimeout(function() {
+								objNext.find('.txt').animate({
+									'top': '0',
+									'opacity': '1'
+								}, 'slow');
+							}, 2000);
+						});
+					}
+					var prevFun = function() {
+						objNext.addClass('show').css('transform', 'rotateY(0)').transition({
+							rotateY: -360,
+							opacity: 1
+						}, function() {
+							t1 = setTimeout(function() {
+								objNext.find('.txt-box').fadeIn('slow');
+							}, 1000);
+							t2 = setTimeout(function() {
+								objNext.find('.txt').animate({
+									'top': '0',
+									'opacity': '1'
+								}, 'slow');
+							}, 2000);
+						});
+					}
+					if (direction != 0) {
+						nextFun();
+					} else {
+						prevFun();
+					};
 				}
+				playFun(0);
+
+				var swipeFun = function() { //手势滑动页面切换
+					objStep.swipe({
+						swipeLeft: function(event, direction, distance, duration, fingerCount) {
+							var index = objStep.find('.item.show').index();
+							if (index < objStep.find('.item').size() - 1) {
+								playFun(index + 1);
+							};
+						},
+						swipeRight: function(event, direction, distance, duration, fingerCount) {
+							var index = objStep.find('.item.show').index();
+							if (index > 0) {
+								playFun(index - 1, 0);
+							};
+						}
+					});
+				}
+				swipeFun();
 			}
 		}
 		//共用调用
-	chapters01Fun.chapters_01();
+	chapters01Fun.step01();
 	return chapters01Fun;
 })(jQuery)

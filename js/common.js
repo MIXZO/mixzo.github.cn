@@ -1,11 +1,11 @@
 ﻿(function($) { //插件模块
-	$.fn.wrapAnimation = function() {
+	$.fn.transitionList = function() {
 		$(this).find('.item').each(function() {
-			var _this = $(this),
-				_act = JSON.parse("" + _this.attr('act').replace(/'/g, '"') + "");
+			var that = $(this),
+				_data = JSON.parse("" + that.attr('act').replace(/'/g, '"') + "");
 
-			for (var i = 0; i < _act.style.length; i++) {
-				_this.transition(_act.style[i]);
+			for (var i = 0; i < _data.style.length; i++) {
+				that.transition(_data.style[i]);
 			};
 		});
 	}
