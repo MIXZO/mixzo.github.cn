@@ -2,13 +2,9 @@
 	var chapters01Fun = {
 			step01: function() { //step-1
 				common.pageLoad(function() {
-					// $('.chapters-box, .step-1').css('display', 'block').transition({
-					// 	'opacity': '1'
-					// });
-					$('.chapters-box, .step-3').css('display', 'block').transition({
+					$('.chapters-box, .step-1').css('display', 'block').transition({
 						'opacity': '1'
 					});
-					chapters01Fun.step03();
 				});
 
 				var canvasFun = function() {
@@ -70,9 +66,11 @@
 									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.4) {
 										$('#cas_pb').fadeOut('slow');
 										setTimeout(function() {
-											$('.step-1').fadeIn();
+											$('.step-1').fadeOut('slow');
+										}, 2000);
+										setTimeout(function() {
 											chapters01Fun.step03();
-										}, 1000);
+										}, 3000);
 									}
 								}, totimes);
 							});
@@ -134,7 +132,7 @@
 									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.4) {
 										$('#cas_pb').fadeOut('slow');
 										setTimeout(function() {
-											$('.step-1').fadeIn();
+											$('.step-1').fadeOut('slow');
 											chapters01Fun.step03();
 										}, 1000);
 									}
@@ -188,6 +186,13 @@
 				var objStep = $('.step-3');
 				var t1, t2;
 				objStep.fadeIn('slow');
+
+				var musicFun = function() {
+					var music_01 = document.getElementById('music_01');
+					music_01.play();
+				}
+				musicFun();
+
 				var playFun = function(index, direction) {
 					clearTimeout(t1);
 					clearTimeout(t2);
@@ -200,43 +205,20 @@
 						'top': '-50px',
 						'opacity': '0'
 					});
-					var nextFun = function() {
-						objNext.addClass('show').css('transform', 'rotateY(0)').transition({
-							rotateY: 360,
-							opacity: 1
-						}, function() {
-							t1 = setTimeout(function() {
-								objNext.find('.txt-box').fadeIn('slow');
-							}, 1000);
-							t2 = setTimeout(function() {
-								objNext.find('.txt').animate({
-									'top': '0',
-									'opacity': '1'
-								}, 'slow');
-							}, 2000);
-						});
-					}
-					var prevFun = function() {
-						objNext.addClass('show').css('transform', 'rotateY(0)').transition({
-							rotateY: -360,
-							opacity: 1
-						}, function() {
-							t1 = setTimeout(function() {
-								objNext.find('.txt-box').fadeIn('slow');
-							}, 1000);
-							t2 = setTimeout(function() {
-								objNext.find('.txt').animate({
-									'top': '0',
-									'opacity': '1'
-								}, 'slow');
-							}, 2000);
-						});
-					}
-					if (direction != 0) {
-						nextFun();
-					} else {
-						prevFun();
-					};
+					objNext.addClass('show').css('transform', 'rotateY(0)').transition({
+						rotateY: 360,
+						opacity: 1
+					}, function() {
+						t1 = setTimeout(function() {
+							objNext.find('.txt-box').fadeIn('slow');
+						}, 1000);
+						t2 = setTimeout(function() {
+							objNext.find('.txt').animate({
+								'top': '0',
+								'opacity': '1'
+							}, 'slow');
+						}, 2000);
+					});
 				}
 				playFun(0);
 
@@ -251,7 +233,7 @@
 						swipeRight: function(event, direction, distance, duration, fingerCount) {
 							var index = objStep.find('.item.show').index();
 							if (index > 0) {
-								playFun(index - 1, 0);
+								playFun(index - 1);
 							};
 						}
 					});
