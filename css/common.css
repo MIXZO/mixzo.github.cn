@@ -107,14 +107,15 @@ body { margin: 0 auto; width: 640px; height: 100%; overflow-x: hidden; }
 #advice .relative-box { width: 100%; height: 100%; }
 #advice img { position: absolute; top: 50%; left: 50%; margin: -100px 0 0 -100px; width: 200px; height: 200px; display: block; }
 
-.yinle1, .yinle1:after { position: absolute; top: 50px; right: 50px; z-index: 99999; width: 50px; height: 50px; line-height: 50px; text-align: center; color: #fff; border: solid 1px #fff; border-radius: 50px; background: url(../images/null.gif) repeat; opacity: 0; display: none;
+.yinle1, .yinle1:after { position: absolute; top: 50px; right: 50px; z-index: 99999; width: 50px; height: 50px; line-height: 50px; text-align: center; color: #fff; border: solid 1px #fff; border-radius: 50px; background: url(../images/null.gif) repeat; cursor: pointer; opacity: 0; display: none;
   font-family:"iconfont" !important;
   font-size:30px;font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
-.yinle1.play { -webkit-animation: musicPlay 2s linear 0 infinite; }
+.yinle1.play { animation: musicPlay 2s linear 0 infinite; -webkit-animation: musicPlay 2s linear 0 infinite; }
+@-webkit-keyframes musicPlay { from { transform: rotate(0deg); -webkit-transform: rotate(0deg); } to { transform: rotate(360deg); -webkit-transform: rotate(360deg); } }
 
 /*style*/
 #pageWrap, #content { margin: 0 auto; width: 100%; height: 100%; overflow: hidden; }
