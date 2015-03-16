@@ -100,56 +100,6 @@ var common = (function($) {
 				event.preventDefault();
 			});
 		},
-		swipeFun: function() { //手势上下滑动页面切换
-			$('.swipe-box').swipe({
-				swipeUp: function(event, direction, distance, duration, fingerCount) {
-					var that = $('.swipe-box.show'),
-						index = that.index(),
-						prev = that.prev(),
-						next = that.next();
-					if (index != $('.swipe-box').size() - 1) {
-						next.addClass('show').css({
-							'transform': 'scale(0.3) translate3d(0,80%,0)',
-							'display': 'block'
-						});
-						that.removeClass('show').transition({
-							'scale': '0.3',
-							'y': '-80%',
-							'opacity': '0'
-						});
-						next.transition({
-							'scale': '1',
-							'y': '0',
-							'opacity': '1'
-						});
-					};
-					bottomFun();
-				},
-				swipeDown: function(event, direction, distance, duration, fingerCount) {
-					var that = $('.swipe-box.show'),
-						index = that.index(),
-						prev = that.prev(),
-						next = that.next();
-
-					if (index != 0) {
-						prev.addClass('show').css({
-							'transform': 'scale(0.3) translate3d(0,-80%,0)',
-							'display': 'block'
-						});
-						that.removeClass('show').transition({
-							'scale': '0.3',
-							'y': '80%',
-							'opacity': '0'
-						});
-						prev.transition({
-							'scale': '1',
-							'y': '0',
-							'opacity': '1'
-						});
-					};
-				}
-			});
-		},
 		formatFun: function() { //页面初始化
 			commonFun.touchLock();
 			commonFun.viewportFix();
@@ -184,7 +134,7 @@ var common = (function($) {
 				setTimeout(function() {
 					objStep.find('.m-box').fadeOut('slow', function() {
 						closeLogo();
-						window.location.href = 'chapters-01.htm';
+						window.location.href = 'chapter-01.htm';
 					});
 				}, 5000);
 			}

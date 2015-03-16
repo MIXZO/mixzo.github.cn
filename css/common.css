@@ -61,7 +61,15 @@ body { margin: 0 auto; width: 640px; height: 100%; overflow-x: hidden; }
 @font-face { 
   font-family: Square_721; 
   src: url(../font/Square_721.ttf); 
-} 
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
 
 /*class*/
 .fl { float: left; }
@@ -72,7 +80,7 @@ body { margin: 0 auto; width: 640px; height: 100%; overflow-x: hidden; }
 .tr { text-align: right; }
 .tc { text-align: center; }
 .cp { cursor: pointer; }
-.relative-box { position: relative; }
+.relative-box { position: relative; width: 100%; height: 100%; }
 .absolute-box { position: absolute; }
 .list-wrap { margin: 0 auto; width: 100%; overflow: hidden; }
 .lazyload { /*background: url(../images/loading.gif) no-repeat center center; */; }
@@ -99,11 +107,21 @@ body { margin: 0 auto; width: 640px; height: 100%; overflow-x: hidden; }
 #advice .relative-box { width: 100%; height: 100%; }
 #advice img { position: absolute; top: 50%; left: 50%; margin: -100px 0 0 -100px; width: 200px; height: 200px; display: block; }
 
+.yinle1, .yinle1:after { position: absolute; top: 50px; right: 50px; z-index: 99999; width: 50px; height: 50px; line-height: 50px; text-align: center; color: #fff; border: solid 1px #fff; border-radius: 50px; background: url(../images/null.gif) repeat; opacity: 0; display: none;
+  font-family:"iconfont" !important;
+  font-size:30px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.yinle1.play { -webkit-animation: musicPlay 2s linear 0 infinite; }
+
 /*style*/
 #pageWrap, #content { margin: 0 auto; width: 100%; height: 100%; overflow: hidden; }
 
-.step-box, .chapters-box { position: relative; z-index: 0; width: 100%; height: 100%; background-color: #fff; display: none; }
-.step-box.show { z-index: 1; }
+.step-box, .chapter-box { width: 100%; height: 100%; background-color: #fff; opacity: 0; }
+.chapter-box { position: relative; }
+.step-box { display: none; }
 .step-logo { text-align: center; }
 .step-logo .m-box { position: absolute; top: 50%; left: 0; margin-top: -50px; width: 100%; height: 100px; line-height: 100px; text-align: center; letter-spacing: 20px; text-shadow: 10px 10px 1px #ccc; display: none; }
 .step-logo .t { text-align: center; font-family: PS2; font-size: 100px; opacity: 0; transform: scale(0); -webkit-transform: scale(0); display: inline-block; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; }

@@ -1,13 +1,30 @@
-﻿var chapters01 = (function($) {
-	var chapters01Fun = {
+﻿var chapter01 = (function($) {
+	var chapter01Fun = {
 			step01: function() { //step-1
 				common.pageLoad(function() {
-					$('.chapters-box, .step-1').css('display', 'block').transition({
+					$('.chapter-box, .step-1').addClass('show').transition({
+						'display': 'block',
 						'opacity': '1'
 					});
 				});
 
 				var canvasFun = function() {
+					var nextStep = function() {
+						$('#cas_pb').transition({
+							'opacity': '0'
+						}, 1000);
+						setTimeout(function() {
+							$('.step-1').removeClass('show').transition({
+								'opacity': '0'
+							}, 1000, function() {
+								$('.step-1').css('display', 'none');
+							});
+							setTimeout(function() {
+								chapter01Fun.step03();
+							}, 500);
+						}, 2000);
+					}
+
 					var canvas = document.getElementById("cas_pb"),
 						ctx = canvas.getContext("2d");
 					var x1, y1, a = 30,
@@ -63,14 +80,8 @@
 											}
 										}
 									}
-									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.4) {
-										$('#cas_pb').fadeOut('slow');
-										setTimeout(function() {
-											$('.step-1').fadeOut('slow');
-										}, 2000);
-										setTimeout(function() {
-											chapters01Fun.step03();
-										}, 3000);
+									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.5) {
+										nextStep();
 									}
 								}, totimes);
 							});
@@ -129,12 +140,8 @@
 											}
 										}
 									}
-									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.4) {
-										$('#cas_pb').fadeOut('slow');
-										setTimeout(function() {
-											$('.step-1').fadeOut('slow');
-											chapters01Fun.step03();
-										}, 1000);
+									if (dd / (imgData.width * imgData.height / (jiange * jiange)) < 0.5) {
+										nextStep();
 									}
 								}, totimes);
 
@@ -184,43 +191,72 @@
 			},
 			step03: function() { //step-3
 				var objStep = $('.step-3');
-				var t1, t2;
-				objStep.fadeIn('slow');
+				var t1;
+				var _height = $(window).height();
+				$(window).resize(function() {
+					_height = $(window).height();
+				});
+				var start03 = function() {
+					objStep.addClass('show').transition({
+						'display': 'block',
+						'opacity': '1'
+					}, 1000);
+				}
 
 				var musicFun = function() {
 					var music_01 = document.getElementById('music_01');
+					var ctrlPlay = $('.yinle1');
+					var objMusic01 = $('#music_01');
+					ctrlPlay.addClass('play');
 					music_01.play();
-				}
-				//musicFun();
 
-				var playFun = function(index, direction) {
-					clearTimeout(t1);
-					clearTimeout(t2);
-					var objNext = objStep.find('.item').eq(index);
-					objStep.find('.item.show').removeClass('show').transition({
-						rotateY: 0,
-						opacity: 0
+					ctrlPlay.transition({
+						'display': 'block',
+						'opacity': '1'
+					}, 500).click(function() {
+						if (ctrlPlay.hasClass('play')) {
+							ctrlPlay.removeClass('play');
+							music_01.pause();
+						} else {
+							ctrlPlay.addClass('play');
+							music_01.play();
+						};
 					});
-					objStep.find('.txt-box').hide().find('.txt').css({
-						'top': '-50px',
+				}
+				musicFun();
+
+				var playFun = function(index) {
+					clearTimeout(t1);
+					var objNext = objStep.find('.item').eq(index);
+					objStep.find('.item.show').removeClass('show').css({
+						'rotateY': '0',
+						'opacity': '0'
+					});
+					objStep.find('.txt-box').css({
+						'top': '50%',
+						'height': '0'
+					}).find('.txt').css({
 						'opacity': '0'
 					});
 					objNext.addClass('show').css('transform', 'rotateY(0)').transition({
-						rotateY: 360,
-						opacity: 1
+						'rotateY': '360',
+						'opacity': '1'
 					}, function() {
 						t1 = setTimeout(function() {
-							objNext.find('.txt-box').fadeIn('slow');
-						}, 1000);
-						t2 = setTimeout(function() {
-							objNext.find('.txt').animate({
+							objNext.find('.txt-box').transition({
 								'top': '0',
+								'height': '100%'
+							}, 1000, 'easeInOutSine').find('.txt').transition({
 								'opacity': '1'
 							}, 'slow');
-						}, 2000);
+							objStep.find('.item').css('transform', 'none');
+						}, 1000);
 					});
 				}
-				playFun(0);
+				setTimeout(function() {
+					start03();
+					playFun(0);
+				}, 1000);
 
 				var swipeFun = function() { //手势滑动页面切换
 					objStep.swipe({
@@ -242,6 +278,6 @@
 			}
 		}
 		//共用调用
-	chapters01Fun.step01();
-	return chapters01Fun;
+	chapter01Fun.step01();
+	return chapter01Fun;
 })(jQuery)
