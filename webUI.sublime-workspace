@@ -1,0 +1,2090 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"music",
+				"music_01"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"obj",
+				"objStep"
+			],
+			[
+				"clear",
+				"clearTimeout"
+			],
+			[
+				"wid",
+				"width	.width()"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"ste",
+				"step03"
+			],
+			[
+				"chap",
+				"chapters01Fun"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"cha",
+				"chapters-01"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"page",
+				"page_1"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ac",
+				"autoPatchFun"
+			],
+			[
+				"st",
+				"step-1"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"scrol",
+				"scroll	.scroll()"
+			],
+			[
+				"common",
+				"common"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"ban",
+				"bannerWH"
+			],
+			[
+				"swip",
+				"swiperFun"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"relative",
+				"relative-box"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"data",
+				"data-value"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"upda",
+				"updatePriceHour"
+			],
+			[
+				"date",
+				"datepicker-from"
+			],
+			[
+				"sele",
+				"selectTimeFun"
+			],
+			[
+				"prev",
+				"prevAll	.prevAll()"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"zshow",
+				"ZShowbox"
+			],
+			[
+				"zsh",
+				"ZShowbox"
+			],
+			[
+				"zshowb",
+				"ZShowbox-comment-tenant"
+			],
+			[
+				"zsho",
+				"ZShowbox-comment-tenant"
+			],
+			[
+				"ZSH",
+				"ZShowbox-comment-tenant"
+			],
+			[
+				"cur",
+				"currentItem"
+			],
+			[
+				"no",
+				"none  (value)"
+			],
+			[
+				"module-page",
+				"module-page-tit"
+			],
+			[
+				"spr",
+				"spriteImg"
+			],
+			[
+				"module",
+				"module-btn"
+			],
+			[
+				"Z",
+				"ZObjDel"
+			],
+			[
+				"ZC",
+				"ZCheckBox"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"js",
+				"jsliderTrigger"
+			],
+			[
+				"jsli",
+				"jsliderMoreFix"
+			],
+			[
+				"jsl",
+				"jslider-value-to"
+			],
+			[
+				"datep",
+				"datepicker-from"
+			],
+			[
+				"filter",
+				"filter-time"
+			],
+			[
+				"remove",
+				"remove	.remove()"
+			],
+			[
+				"dat",
+				"dateValue"
+			],
+			[
+				"cl",
+				"click	.click()"
+			],
+			[
+				"item",
+				"item-oil"
+			],
+			[
+				"zi",
+				"ZInput"
+			],
+			[
+				"datepi",
+				"datepicker-n"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"col",
+				"colorOrange"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"sp",
+				"spritePng"
+			],
+			[
+				"color",
+				"colorGray"
+			],
+			[
+				"aja",
+				"ajax	$.ajax()"
+			],
+			[
+				"user",
+				"user-box"
+			],
+			[
+				"rel",
+				"relative-box"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"il",
+				"inline-block"
+			],
+			[
+				"remo",
+				"remove	.remove()"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"module-lve",
+				"module-level-owner"
+			],
+			[
+				"module-le",
+				"module-level-owner"
+			],
+			[
+				"re",
+				"relative-box"
+			],
+			[
+				"objdat",
+				"objDatepickerCalendar"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"sli",
+				"slideUp	.slideUp()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"hs",
+				"hasClass	.hasClass()"
+			],
+			[
+				"objd",
+				"objDatepickerCalendar"
+			],
+			[
+				"mouse",
+				"mousedown	.mousedown()"
+			],
+			[
+				"txt",
+				"txt-box"
+			],
+			[
+				"module-",
+				"module-price-calc"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"bs",
+				"box-shadow"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"modle",
+				"module-btn"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"bordrc",
+				"border-color"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"ani",
+				"animate	animate"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"timeout",
+				"setTimeout"
+			],
+			[
+				"post",
+				"postion"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"tabau",
+				"tabAutoTime"
+			],
+			[
+				"auto",
+				"tabAutoTime"
+			],
+			[
+				"au",
+				"tabAuto"
+			],
+			[
+				"main",
+				"mainTitFun"
+			],
+			[
+				"comm",
+				"commonFun"
+			],
+			[
+				"co",
+				"commonFun"
+			],
+			[
+				"reset",
+				"resetScroll"
+			],
+			[
+				"clea",
+				"clearTimeout"
+			],
+			[
+				"objcon",
+				"objCon"
+			],
+			[
+				"paret",
+				"parentWidth"
+			],
+			[
+				"Next",
+				"nextFun"
+			],
+			[
+				"objconli",
+				"objConLiPos"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"ania",
+				"animate	.animate()"
+			],
+			[
+				"objco",
+				"objCon"
+			],
+			[
+				"pre",
+				"prepend	.prepend()"
+			],
+			[
+				"scr",
+				"scrollItemArrange  (function)"
+			],
+			[
+				"animate",
+				"animateType"
+			],
+			[
+				"anim",
+				"animate	.animate()"
+			],
+			[
+				"tab-con",
+				"tab-con-wrap"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"each",
+				"each	.each()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "chapter-01.htm",
+			"settings":
+			{
+				"buffer_size": 40332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.htm",
+			"settings":
+			{
+				"buffer_size": 2768,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/chapter-01.css",
+			"settings":
+			{
+				"buffer_size": 1360,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/common.css",
+			"settings":
+			{
+				"buffer_size": 8806,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/chapter-01.js",
+			"settings":
+			{
+				"buffer_size": 8255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/common.js",
+			"settings":
+			{
+				"buffer_size": 3696,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 257.0,
+		"selected_items":
+		[
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/chapters-01.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/css/chapters-01.css",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/js/page.js",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/js/chapters-01.js",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/js/zoui.js",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/js/jquery-1.7.2.min.js",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/js/jquery.transit.min.js",
+		"/E/WORK/WORKSPACE/PROJECT/20141230_DURE/webUI/js/jquery.touchSwipe.min.js",
+		"/d/Users/cocar/Desktop/ring.css",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/SublimeCodeIntel/Main.sublime-menu",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/User/Preferences.sublime-settings",
+		"/d/Users/cocar/Desktop/Swiper-master/dist/idangerous.swiper.js",
+		"/d/Users/cocar/Desktop/Swiper-master/demos/js/idangerous.swiper.scrollbar-2.1.js",
+		"/d/Users/cocar/Desktop/service_agreement.php",
+		"/d/Users/cocar/Desktop/Swiper-master/demos/css/idangerous.swiper.css",
+		"/E/MIXZO/LKK/OTHER/Desktop_1hai/ZO/特效文件夹/桌面/css3_test/css/animation.css",
+		"/E/MIXZO/LKK/OTHER/Desktop_1hai/ZO/特效文件夹/桌面/css3_test/css/css3_demo.css",
+		"/E/MIXZO/LKK/OTHER/Desktop_1hai/ZO/特效文件夹/桌面/css3_test/css/common.css",
+		"/E/WORK/WORKSPACE/PROJECT/20141118_cocar_wap/webUI/js/common.js",
+		"/Z/protected/modules/web/views/index/register.php",
+		"/Z/themes/Home/js/page.js",
+		"/Z/protected/modules/home/views/login/register.php",
+		"/Z/protected/modules/home/views/login/index.php",
+		"/Z/protected/modules/home/views/contact/index.php",
+		"/Z/protected/modules/home/views/login/password_new.php",
+		"/Z/protected/modules/home/views/help/cocar_server.php",
+		"/Z/protected/modules/home/views/help/service_agreement.php",
+		"/Z/protected/modules/home/views/help/renter_level.php",
+		"/Z/protected/modules/home/views/help/owner_help.php",
+		"/Z/protected/modules/home/views/car/car_detail.php",
+		"/Z/protected/modules/home/views/owner/perfect_information.php",
+		"/Z/protected/modules/home/views/owner/car_added.php",
+		"/Z/protected/modules/home/views/account/car_detail.php",
+		"/Z/protected/modules/home/views/car/_footer.php",
+		"/Z/protected/modules/home/views/login/password_forget.php",
+		"/Z/protected/modules/home/views/car/index_list.php",
+		"/Z/protected/modules/home/views/car/_headmenu.php",
+		"/Z/protected/modules/home/views/car/index.php",
+		"/Z/protected/modules/home/views/account/order_tenant.php",
+		"/Z/protected/modules/home/views/account/message_owner.php",
+		"/Z/protected/modules/home/views/account/index.php",
+		"/Z/protected/modules/home/views/index/index.php",
+		"/Z/protected/modules/home/views/login/guide.php",
+		"/Z/themes/Home/js/common.js",
+		"/Z/themes/Home/css/index.css",
+		"/Z/protected/modules/home/views/layouts/main.php",
+		"/Z/protected/modules/home/views/layouts/_footerhelp.php",
+		"/Z/protected/modules/home/views/layouts/_footer.php",
+		"/Z/protected/modules/home/views/about/index.php",
+		"/Z/protected/modules/home/assets/js/page.js",
+		"/Z/protected/modules/home/views/tenant/upload.php",
+		"/Z/protected/modules/home/views/layouts/_header.php",
+		"/Z/protected/modules/home/assets/js/zoui.js",
+		"/Z/protected/modules/home/views/tenant/_headmenu.php",
+		"/Z/protected/modules/home/views/tenant/index_list.php",
+		"/Z/protected/modules/home/views/tenant/car_detail.php",
+		"/Z/protected/modules/home/assets/css/page.css",
+		"/Z/protected/modules/home/assets/js/common.js",
+		"/Z/protected/modules/home/HomeModule.php",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/tenant/index_list.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/login/register.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/tenant/car_detail.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/order_detail_tenant.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/order_detail_owner.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/help/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/order_owner.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/js/zoui.js",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/message_owner.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/tenant/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/contact/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/order_tenant.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/login/guide.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/car_owner.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/discount.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/login/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/tenant/userdata_check_false.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/tenant/userdata_check.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/tenant/userdata_upload.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/login/password_forget.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/login/password_new.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/password.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/withdraw.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/account/balance.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/js/jquery.slider.js",
+		"/d/Users/cocar/Desktop/jslider/index.html",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/css/jslider.css",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_perfect_information.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_car_added.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_upload.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/js/jquery-ui-1.10.4.custom.js",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/js/jquery-ui-1.10.4.custom_bak.js",
+		"/d/Users/cocar/Desktop/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/js/jCal.js",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/css/jCal.css",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_smartbox.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_check.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_check_false.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/userdata_perfect_infromation.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/about/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/owner/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140825_cocar_v1/webUI/css/common.css",
+		"/E/MIXZO/LKK/OTHER/Desktop/EFFECT/VMiddleImg-jQuery图片居中裁切效果/js/jquery.VMiddleImg.js",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/Pretty JSON/Main.sublime-menu",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/Package Control/Main.sublime-menu",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/BracketHighlighter/Main.sublime-menu",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/JsFormat/Main.sublime-menu",
+		"/E/MIXZO/LKK/DESKTOP/Swiper-master/demos/main-demos/01-default.html",
+		"/E/MIXZO/LKK/DESKTOP/Swiper-master/demos/main-demos/js/idangerous.swiper.scrollbar-2.1.js",
+		"/E/MIXZO/LKK/DESKTOP/Swiper-master/demos/scrollbar/js/idangerous.swiper.scrollbar-2.1.js",
+		"/E/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/banner.js",
+		"/E/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/index.htm",
+		"/E/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/css/common.css",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/index.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/order/index.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/order/service.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/account/illegal_detail.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/account/relet.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/login/index.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/login/register.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-900.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-876.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-859.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-858.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-857.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-856.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140701_chesudi_v2/webUI/help/question-855.htm"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"99999",
+			"t2",
+			"step03",
+			"swipeFun",
+			"01_00",
+			"images/img/chapter_",
+			"chapters",
+			"nextStep",
+			"chapters01Fun",
+			"<div class=\"item\">",
+			"viewportFix",
+			"totimes",
+			"tapmoveHandler",
+			"hastouch",
+			"step3",
+			"142",
+			"drawImage",
+			"bb",
+			"swipeFun",
+			"pageLoad",
+			"chapters_01",
+			"address",
+			"descError",
+			"dateGet",
+			"endTime",
+			"time",
+			"viewFilter",
+			"carHireDisable",
+			"renthour",
+			"alert",
+			"jsliderTrigger",
+			"console",
+			"搜 索",
+			"搜索",
+			"jsliderTrigger",
+			"请登录",
+			"v_bkz",
+			"dateGet",
+			"zselect",
+			"valueTimeFun",
+			"rent-inf",
+			"alert",
+			"<p>订单号：<a class=\"colorGray\" href=\"order_detail_owner.htm\">12345678900987654321</a></p>",
+			"不可阻日期：",
+			"myshowbox",
+			"列表",
+			"heterogeneity",
+			"$.slider",
+			"oilType",
+			"1.23",
+			"油费",
+			"不可租",
+			"ZBlankHide",
+			"ui-datepicker-div",
+			"ui-datepicker",
+			"ui-datepicker-div",
+			"90号汽油",
+			"自助取车",
+			"user-box tenant-box",
+			"countdownFun",
+			"score",
+			"showbox",
+			".pagesize-box",
+			".page-account .side-nav",
+			"box-shadow",
+			".banner-box",
+			".page-perfect-information",
+			"page-perfect-information",
+			".page-perfect-information",
+			"onSelect",
+			"click",
+			"border-radius: 18px;",
+			"ui-state-hover",
+			"ui-datepicker-multi-3",
+			"border-bottom",
+			"box-sha",
+			"353",
+			"323232",
+			"authentication-img-frame",
+			"323232",
+			"$this",
+			"10",
+			"module-page-tit",
+			"$this",
+			"resize",
+			"formatFun",
+			"ZAutoHeight",
+			"scrollFun",
+			"scrollItemArrange",
+			"objCon.width()",
+			"6e6e6e",
+			"wTypeMin1",
+			"#content .entrance-box",
+			"resize",
+			"objCache",
+			"objTitLi",
+			"swipeNext",
+			"swipePrev",
+			"<em><i>></i></em>",
+			"typeof",
+			"autoheight",
+			"autohe",
+			"banenr",
+			"基本险",
+			"进保处理",
+			"20",
+			".list-store a",
+			".list-store li a",
+			"min-height",
+			"map",
+			"随手拍",
+			"account",
+			"地图",
+			"日历",
+			"effectScrollVertical ",
+			"commonFun",
+			"map",
+			".loginIndex .form-con",
+			".loginIndex .form-box",
+			".loginIndex",
+			".login-con",
+			".loginIndex ",
+			"loginIndex",
+			"14",
+			"<a class=\"btn-next module-btn module-btn-orange fr\" href=\"order/index.htm\">去选车</a>",
+			"show-module-pay",
+			"orderConfirm",
+			"订单详情"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"images/img/chapters_",
+			"chapter",
+			"backface-visibility\n\nchapter",
+			"chapter01Fun",
+			"<div class=\"item\"><",
+			"carHireDisable",
+			"<p>订单号：<a class=\"colorGray\" href=\"order_detail_tenant.htm\">12345678900987654321</a></p>",
+			"不可租日期：",
+			"$.jslider",
+			"user-box user-owner-box",
+			"user-box owner-box",
+			".module-pagesize-box",
+			".module-side-nav",
+			".module-information-car .img-box .ZTab",
+			".module-perfect-inf",
+			".module-perfect-information",
+			"that",
+			"obj",
+			"wTypeMin2",
+			".page-contact-index .entrance-box\nwTypeMin2",
+			".page-contact-index .entrance-box",
+			"objSet",
+			"<em><b>></b></em>",
+			"banner",
+			"common",
+			".login-box .form-con",
+			".login-box",
+			".loginIndex .form-box { width: 400px; }\n.loginIndex .form-box .tab-tit { }\n.loginIndex .form-box .tab-tit li { position: relative; float: left; width: 198px; height: 48px; line-height: 48px; text-align: center; color: #9c9c9c; font-size: 18px; border-style: solid; border-width: 2px 1px 0 1px; border-color: #fff; cursor: pointer; }\n.loginIndex .form-box .tab-tit li.current { border-color: #629a22 #b7b7b7 #fff; }\n.loginIndex .form-box .tab-tit .txt { position: absolute; top: 0; left: 0; width: 198px; height: 48px; background: #fff; }\n.loginIndex .form-box .tab-tit li.current .txt { color: #585858; height: 49px; }\n.loginIndex .form-con { padding-top: 16px; height: 282px; border: solid 1px #b7b7b7; }\n.loginIndex .form-con .tab-con-wrap { margin: 0 auto; width: 350px; }\n.loginIndex .form-con .tab-con li { display: none; }\n.loginIndex .form-con .tab-con li.current { display: block; }\n.loginIndex .form-con .form-input { margin-top: 20px; }\n.loginIndex .form-con .form-input input { width: 330px; }\n.loginIndex .form-con .form-input-short { width: 192px; }\n.loginIndex .form-con .form-input-short input { width: 172px; }\n.loginIndex .form-con .btn-getCode { position: absolute; top: -1px; left: 212px; width: 132px; height: 34px; line-height: 34px; text-align: center; color: #706f6f; background: #e8e8e8; background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#EEEEEE), to(#E2E2E2)); background: -moz-linear-gradient(0% 0% 270deg, #EEEEEE,#E2E2E2); border: solid 1px #dcdcdc; overflow: hidden; -webkit-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; }\n.loginIndex .form-con .btn-getCode:hover { background: #e0e0e0; background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#EAEAEA), to(#D8D8D8)); background: -moz-linear-gradient(0% 0% 270deg, #EAEAEA,#D8D8D8); }\n.loginIndex .form-con .op-l { padding: 20px 0; }\n.loginIndex .form-con .op-l .module-checkbox { float: left; width: 150px; }\n.loginIndex .form-con .op-l .link-forget { float: right; line-height: 26px; }\n.loginIndex .form-con .op-box { }\n.loginIndex .form-con .op-box .ts-error { padding-bottom: 12px; }\n.loginIndex .form-con .op-box .ts-error i { float: left; margin: 2px 5px 0 0; width: 12px; height: 12px; background-position: -567px 0; overflow: hidden; }\n.loginIndex .form-con .op-box .ts-error .txt { float: left; }\n.loginIndex .form-con .op-box .btn-login { width: 100%; height: 40px; line-height: 40px; display: block; }\n.login-box",
+			".loginIndex .form-box { width: 400px; }\n.loginIndex .form-box .tab-tit { }\n.loginIndex .form-box .tab-tit li { position: relative; float: left; width: 198px; height: 48px; line-height: 48px; text-align: center; color: #9c9c9c; font-size: 18px; border-style: solid; border-width: 2px 1px 0 1px; border-color: #fff; cursor: pointer; }\n.loginIndex .form-box .tab-tit li.current { border-color: #629a22 #b7b7b7 #fff; }\n.loginIndex .form-box .tab-tit .txt { position: absolute; top: 0; left: 0; width: 198px; height: 48px; background: #fff; }\n.loginIndex .form-box .tab-tit li.current .txt { color: #585858; height: 49px; }\n.loginIndex .form-con { padding-top: 16px; height: 282px; border: solid 1px #b7b7b7; }\n.loginIndex .form-con .tab-con-wrap { margin: 0 auto; width: 350px; }\n.loginIndex .form-con .tab-con li { display: none; }\n.loginIndex .form-con .tab-con li.current { display: block; }\n.loginIndex .form-con .form-input { margin-top: 20px; }\n.loginIndex .form-con .form-input input { width: 330px; }\n.loginIndex .form-con .form-input-short { width: 192px; }\n.loginIndex .form-con .form-input-short input { width: 172px; }\n.loginIndex .form-con .btn-getCode { position: absolute; top: -1px; left: 212px; width: 132px; height: 34px; line-height: 34px; text-align: center; color: #706f6f; background: #e8e8e8; background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#EEEEEE), to(#E2E2E2)); background: -moz-linear-gradient(0% 0% 270deg, #EEEEEE,#E2E2E2); border: solid 1px #dcdcdc; overflow: hidden; -webkit-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; }\n.loginIndex .form-con .btn-getCode:hover { background: #e0e0e0; background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#EAEAEA), to(#D8D8D8)); background: -moz-linear-gradient(0% 0% 270deg, #EAEAEA,#D8D8D8); }\n.loginIndex .form-con .op-l { padding: 20px 0; }\n.loginIndex .form-con .op-l .module-checkbox { float: left; width: 150px; }\n.loginIndex .form-con .op-l .link-forget { float: right; line-height: 26px; }\n.loginIndex .form-con .op-box { }\n.loginIndex .form-con .op-box .ts-error { padding-bottom: 12px; }\n.loginIndex .form-con .op-box .ts-error i { float: left; margin: 2px 5px 0 0; width: 12px; height: 12px; background-position: -567px 0; overflow: hidden; }\n.loginIndex .form-con .op-box .ts-error .txt { float: left; }\n.loginIndex .form-con .op-box .btn-login { width: 100%; height: 40px; line-height: 40px; display: block; }\n.login-box .form-con",
+			"",
+			"login-box",
+			"<a class=\"btn-next module-btn module-btn-orange fr\" href=\"../order/index.htm\">去选车</a>",
+			"page-account .show-module-pay-2",
+			"closeBox",
+			"objResult",
+			"objInvoice",
+			"'",
+			"<div class=\"information-box\">",
+			"<div class=\"information-box information-other\">\n<div class=\"information-box information-other\">\n<div class=\"information-box\">",
+			"<a class=\"btn-op btn-order module-btn module-btn-orange\" href=\"javascript:;\">去选车</a>",
+			"<a class=\"btn-order module-btn module-btn-orange\" href=\"javascript:;\">去选车</a>",
+			"",
+			"module-cr module-checkbox",
+			"<a class=\"btn-op btn-other module-btn module-btn-green\" href=\"javascript:;\">其他门店</a>",
+			"<a class=\"btn-op btn-order module-btn module-btn-orange\" href=\"javascript:;\">预订</a>",
+			"class=\"colorRed\"",
+			"common",
+			"mshowFun"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "chapter-01.htm",
+					"settings":
+					{
+						"buffer_size": 40332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.htm",
+					"settings":
+					{
+						"buffer_size": 2768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/chapter-01.css",
+					"settings":
+					{
+						"buffer_size": 1360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/common.css",
+					"settings":
+					{
+						"buffer_size": 8806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								736
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/chapter-01.js",
+					"settings":
+					{
+						"buffer_size": 8255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/common.js",
+					"settings":
+					{
+						"buffer_size": 3696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pagejs",
+				"js/page.js"
+			],
+			[
+				"upi",
+				"owner/userdata_perfect_information.htm"
+			],
+			[
+				"faq",
+				"help/faq.htm"
+			],
+			[
+				"876",
+				"help/question-876.htm"
+			],
+			[
+				"858",
+				"help/question-858.htm"
+			],
+			[
+				"account/ille",
+				"account/illegal_detail.htm"
+			],
+			[
+				"order/ind",
+				"order/index.htm"
+			],
+			[
+				"order/ser",
+				"order/service.htm"
+			],
+			[
+				"spec/in",
+				"special/index.htm"
+			],
+			[
+				"857",
+				"help/question-857.htm"
+			],
+			[
+				"859",
+				"help/question-859.htm"
+			],
+			[
+				"855",
+				"help/question-855.htm"
+			],
+			[
+				"856",
+				"help/question-856.htm"
+			],
+			[
+				"854",
+				"help/question-854.htm"
+			],
+			[
+				"853",
+				"help/question-853.htm"
+			],
+			[
+				"900",
+				"help/question-900.htm"
+			],
+			[
+				"verr",
+				"account/verify_error.htm"
+			],
+			[
+				"accou",
+				"css/account.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
