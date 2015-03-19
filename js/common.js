@@ -9,6 +9,46 @@
 			};
 		});
 	}
+	//文字队列
+	$.fn.arrayTxt = function(options) {
+		var defaults = {
+			speed: 5000
+		}
+		var opts = $.extend(defaults, options);
+		var method = {
+			allFun: function(obj, speed, callback) {
+				obj.find('.item').each(function(i) {
+					var that = $(this);
+					var inFun = function() {
+						that.css('opacity', '0').transition({
+							'opacity': '1'
+						}, 2000);
+					}
+					var outFun = function() {
+						that.transition({
+							'opacity': '0'
+						}, 2000);
+					}
+					setTimeout(function() {
+						inFun();
+					}, speed * i);
+					setTimeout(function() {
+						outFun();
+					}, speed * i + 3000);
+				});
+				setTimeout(function() {
+					if (typeof callback == 'function') {
+						callback();
+					};
+				}, speed * obj.find('.item').size());
+			}
+		}
+		this.each(function() {
+			var that = $(this);
+			method.allFun(that, opts.speed, opts.callback);
+		});
+		return method;
+	}
 })(jQuery);
 
 var common = (function($) {

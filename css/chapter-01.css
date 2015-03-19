@@ -7,7 +7,10 @@
 .chapter-01 .t { position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-align: center; vertical-align: middle; }
 .p-box {position: absolute;left: 0;top: 0;bottom: 0;right: 0;background: url(../images/img/chapters_01_01.jpg) no-repeat;background-size: 100% 100%;backface-visibility: hidden;overflow: hidden;}
 #cas_pb {width: 100%;height: 100%;opacity: 1;-webkit-transition: opacity .5s;}
-.step-3 { background-color: #000; }
+.array-txt .relative-box { display: table; }
+.array-txt .item { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; }
+.array-txt .item p { width: 100%; height: 100%; text-align: center; vertical-align: middle; display: table-cell; }
+.array-txt, .step-3 { background-color: #000; }
 .step-3 .item { position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; opacity: 0; transform: rotateY(0); }
 .step-3 .item.show { z-index: 1; }
 .step-3 .txt-box { position: absolute; top: 50%; left: 0; width: 100%; height: 0; overflow: hidden; }

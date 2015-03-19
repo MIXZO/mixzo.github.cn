@@ -20,7 +20,7 @@
 								$('.step-1').css('display', 'none');
 							});
 							setTimeout(function() {
-								chapter01Fun.step03();
+								chapter01Fun.step02();
 							}, 500);
 						}, 2000);
 					}
@@ -189,6 +189,30 @@
 				}
 				canvasFun();
 			},
+			step02: function() { //step-2
+				var objStep = $('.step-2');
+				var start02 = function() {
+					objStep.addClass('show').transition({
+						'display': 'block',
+						'opacity': '1'
+					}, 1000);
+					$('.array-txt-1').arrayTxt({
+						callback: function() {
+							setTimeout(function() {
+								objStep.transition({
+									'opacity': '0'
+								}, function() {
+									objStep.css('display', 'none');
+								});
+								chapter01Fun.step03();
+							}, 1000);
+						}
+					});
+				}
+				setTimeout(function() {
+					start02();
+				}, 1000);
+			},
 			step03: function() { //step-3
 				var objStep = $('.step-3');
 				var t1;
@@ -208,7 +232,9 @@
 					var ctrlPlay = $('.yinle1');
 					var objMusic01 = $('#music_01');
 					ctrlPlay.addClass('play');
-					music_01.play();
+					setTimeout(function() {
+						music_01.play();
+					}, 1000);
 
 					ctrlPlay.transition({
 						'display': 'block',
@@ -264,6 +290,15 @@
 							var index = objStep.find('.item.show').index();
 							if (index < objStep.find('.item').size() - 1) {
 								playFun(index + 1);
+							} else if (index == objStep.find('.item').size() - 1) {
+								objStep.transition({
+									'opacity': '0'
+								}, 1000, function() {
+									setTimeout(function() {
+										objStep.css('display', 'none');
+										chapter01Fun.step04();
+									}, 1000);
+								});
 							};
 						},
 						swipeRight: function(event, direction, distance, duration, fingerCount) {
@@ -275,6 +310,32 @@
 					});
 				}
 				swipeFun();
+			},
+			step04: function() { //step-2
+				var objStep = $('.step-4');
+				var start04 = function() {
+					objStep.addClass('show').transition({
+						'display': 'block',
+						'opacity': '1'
+					}, 1000);
+					$('.array-txt-2').arrayTxt({
+						callback: function() {
+							setTimeout(function() {
+								objStep.transition({
+									'opacity': '0'
+								}, function() {
+									objStep.css('display', 'none');
+								});
+								setTimeout(function() {
+									window.location.reload();
+								}, 1000);
+							}, 1000);
+						}
+					});
+				}
+				setTimeout(function() {
+					start04();
+				}, 1000);
 			}
 		}
 		//共用调用
