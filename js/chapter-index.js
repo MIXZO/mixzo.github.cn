@@ -26,7 +26,7 @@ var chapterIndex = (function($) {
                         setTimeout(function() {
                             that.fadeOut(2000, function() {
                                 setTimeout(function() {
-                                    window.location.href = 'chapter-01.htm';
+                                    window.location.href = that.find('a').attr('data-link');
                                 }, 1000);
                             });
                         }, 5000);
