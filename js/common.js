@@ -202,8 +202,6 @@ var common = (function($) {
 				}, 5000);
 			}
 			logo_mixzo();
-		},
-		chapter_index: function() { //chapter 目录
 		}
 	}
 	return commonFun;
