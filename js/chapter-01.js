@@ -196,7 +196,7 @@
 						'display': 'block',
 						'opacity': '1'
 					}, 1000);
-					$('.array-txt-1').arrayTxt({
+					$('.array-txt-1').txtSH({
 						callback: function() {
 							setTimeout(function() {
 								objStep.transition({
@@ -231,10 +231,9 @@
 					var music_01 = document.getElementById('music_01');
 					var ctrlPlay = $('.yinle1');
 					var objMusic01 = $('#music_01');
-					ctrlPlay.addClass('play');
 					setTimeout(function() {
-						music_01.play();
-					}, 1000);
+						ctrlPlay.click();
+					}, 2000);
 
 					ctrlPlay.transition({
 						'display': 'block',
@@ -264,7 +263,7 @@
 					}).find('.txt').css({
 						'opacity': '0'
 					});
-					objNext.addClass('show').css('transform', 'rotateY(0)').transition({
+					objNext.addClass('show').css('transform', 'rotateY(0deg)').transition({
 						'rotateY': '360',
 						'opacity': '1'
 					}, function() {
@@ -318,7 +317,7 @@
 						'display': 'block',
 						'opacity': '1'
 					}, 1000);
-					$('.array-txt-2').arrayTxt({
+					$('.array-txt-2').txtSH({
 						callback: function() {
 							setTimeout(function() {
 								objStep.transition({
@@ -327,7 +326,7 @@
 									objStep.css('display', 'none');
 								});
 								setTimeout(function() {
-									window.location.reload();
+									window.location.href = 'chapter-index.htm';
 								}, 1000);
 							}, 1000);
 						}

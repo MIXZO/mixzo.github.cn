@@ -1,16 +1,17 @@
-﻿(function($) { //插件模块
+﻿(function($) {
+	//插件模块
 	$.fn.transitionList = function() {
-		$(this).find('.item').each(function() {
-			var that = $(this),
-				_data = JSON.parse("" + that.attr('act').replace(/'/g, '"') + "");
+			$(this).find('.item').each(function() {
+				var that = $(this),
+					_data = JSON.parse("" + that.attr('act').replace(/'/g, '"') + "");
 
-			for (var i = 0; i < _data.style.length; i++) {
-				that.transition(_data.style[i]);
-			};
-		});
-	}
-	//文字队列
-	$.fn.arrayTxt = function(options) {
+				for (var i = 0; i < _data.style.length; i++) {
+					that.transition(_data.style[i]);
+				};
+			});
+		}
+		//文字队列
+	$.fn.txtSH = function(options) {
 		var defaults = {
 			speed: 5000
 		}
@@ -49,6 +50,38 @@
 		});
 		return method;
 	}
+	$.fn.txtPos = function(options) {
+		var defaults = {
+			step: 200, //间隔速度
+			speed: 1000, //动画速度
+			posH: 'left', //水平定位
+			valueH: 20, //水平移动距离
+			valueHFix: 0,	//水平移动距离修正
+			lineHeight: 20, //行高
+			lineHeightFix: 20 //行高修正
+		}
+		var opts = $.extend(defaults, options);
+		var method = {
+			mainFun: function(obj) {
+				obj.find('.item').each(function(i) {
+					var that = $(this);
+					that.css('top', opts.lineHeight * i + opts.lineHeightFix);
+					var showFun = function() {
+    				that.transition({
+    					'left': opts.valueH + opts.valueHFix * i
+	    				}, opts.speed);
+	    			}
+	    			setTimeout(function() {
+	                    showFun();
+	                }, opts.step * i);
+				});
+			}
+		}
+		this.each(function() {
+			var that = $(this);
+			method.mainFun(that);
+		});
+	}
 })(jQuery);
 
 var common = (function($) {
@@ -71,18 +104,6 @@ var common = (function($) {
 					}
 				}
 			});
-		},
-		tsIcoNext: function() { //提示上滑
-			var b_t;
-			var bottomFun = function() {
-				$('#bottom').hide();
-				clearTimeout(b_t);
-				b_t = setTimeout(function() {
-					if (!$('.step-box').last().hasClass('show')) {
-						$('#bottom').fadeIn('slow');
-					};
-				}, 3000);
-			}
 		},
 		viewportFix: function() { //屏幕适配
 			var v_t;
@@ -140,17 +161,19 @@ var common = (function($) {
 				event.preventDefault();
 			});
 		},
-		formatFun: function() { //页面初始化
-			commonFun.touchLock();
+		formatFun: function(callback) { //页面初始化
+			//commonFun.touchLock();
 			commonFun.viewportFix();
 			commonFun.pageLoad(function() {
 				$('.step-box').first().addClass('show').css('display', 'block').transition({
 					'opacity': '1'
 				});
-				commonFun.page_logo();
+				if (typeof callback == 'function') {
+					callback();
+				};
 			});
 		},
-		page_logo: function() { //首屏LOGO
+		page_logo_mixzo: function() { //首屏LOGO
 			var objStep = $('.step-logo');
 			var closeLogo = function() {
 				objStep.fadeOut('slow');
@@ -174,13 +197,14 @@ var common = (function($) {
 				setTimeout(function() {
 					objStep.find('.m-box').fadeOut('slow', function() {
 						closeLogo();
-						window.location.href = 'chapter-01.htm';
+						window.location.href = 'chapter-index.htm';
 					});
 				}, 5000);
 			}
 			logo_mixzo();
+		},
+		chapter_index: function() { //chapter 目录
 		}
 	}
-	commonFun.formatFun();
 	return commonFun;
 })(jQuery)

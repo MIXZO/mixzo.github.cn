@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
-    <title>PROJECT×ZO</title>
+    <title> chapter index - PROJECT×ZO</title>
     <meta charset="utf-8" />
     <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
     <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
@@ -32,6 +32,7 @@
         }
     </script>
     <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/chapter-index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="loading">
@@ -39,10 +40,18 @@
     </div>
     <div id="pageWrap">
         <div id="content">
-            <div class="step-box step-logo step-logo-mixzo">
-                <div class="m-box">
-                    <span class="t">M</span><span class="t">I</span><span class="t">X</span><span class="t x"><span class="inner IR"><span class="relative-box"><i></i><b></b></span></span><span class="inner shadow IR"><span class="relative-box"><i></i><b></b></span></span></span><span class="t">Z</span><span class="t">O</span>
-                    <p class="t-s">LIVE 2015</p>
+            <div class="step-box step-index">
+                <div class="inner-box">
+                    <p class="item"><a href="javascript:;" data-link="chapter-01.htm">Chapter 01</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 02</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 03</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 04</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 05</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 06</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 07</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 08</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 09</a></p>
+                    <p class="item"><a href="javascript:;">Chapter 10</a></p>
                 </div>
             </div>
         </div>
@@ -55,10 +64,15 @@
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery.transit.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/chapter-index.js"></script>
     <script>
         $(function() {
             common.formatFun(function() {
-                common.page_logo_mixzo()
+                $('.step-index').txtPos({
+                    valueH: 70,
+                    lineHeight: 70,
+                    lineHeightFix: 70
+                }).unbind('touchstart');
             });
         })
     </script>
