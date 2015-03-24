@@ -229,11 +229,11 @@
 
 				var musicFun = function() {
 					var music_01 = document.getElementById('music_01');
-					var ctrlPlay = $('.yinle1');
 					var objMusic01 = $('#music_01');
+					var ctrlPlay = $('.yinle1');
 					setTimeout(function() {
 						ctrlPlay.click();
-					}, 2000);
+					}, 1000);
 
 					ctrlPlay.transition({
 						'display': 'block',

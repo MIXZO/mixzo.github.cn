@@ -139,4 +139,4 @@ body { margin: 0 auto; width: 640px; height: 100%; overflow-x: hidden; }
 .step-logo .x2d { transform: scale(1); -webkit-transform: scale(1); opacity: 1; }
 @-webkit-keyframes IR { from { transform: rotate(0); -webkit-transform: rotate(0); } to { transform: rotate(360deg); -webkit-transform: rotate(360deg); } }
 .IR { animation: IR 5s linear 0 infinite; -webkit-animation: IR 5s linear 0 infinite; transform-origin: center; -webkit-transform-origin: center; }
-.step-logo .t-s { position: absolute; top: 70px; left: 140px; width: 100%; text-align: center; letter-spacing: 5px; font-family: PS2; font-size: 24px; text-shadow: 5px 5px 1px #ccc; display: none; }
+.step-logo .t-s { position: absolute; top: 70px; left: 0; width: 550px; text-align: right; letter-spacing: 5px; font-family: PS2; font-size: 24px; text-shadow: 5px 5px 1px #ccc; display: none; }
