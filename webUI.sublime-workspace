@@ -523,7 +523,7 @@
 			"file": "chapter-index.htm",
 			"settings":
 			{
-				"buffer_size": 3500,
+				"buffer_size": 3533,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,7 +555,7 @@
 			"file": "css/common.css",
 			"settings":
 			{
-				"buffer_size": 8806,
+				"buffer_size": 8802,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "js/chapter-01.js",
 			"settings":
 			{
-				"buffer_size": 9761,
+				"buffer_size": 9743,
 				"line_ending": "Windows"
 			}
 		},
@@ -963,7 +963,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -971,15 +971,15 @@
 					"file": "chapter-index.htm",
 					"settings":
 					{
-						"buffer_size": 3500,
+						"buffer_size": 3533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3254,
-								3254
+								3440,
+								3440
 							]
 						],
 						"settings":
@@ -1293,7 +1293,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 14549.0,
+						"translation.y": 1481.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1310,8 +1310,8 @@
 						"selection":
 						[
 							[
-								2618,
-								2778
+								2696,
+								2696
 							]
 						],
 						"settings":
@@ -1459,7 +1459,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 964.0,
+						"translation.y": 991.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1467,7 +1467,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1638,15 +1638,15 @@
 					"file": "css/common.css",
 					"settings":
 					{
-						"buffer_size": 8806,
+						"buffer_size": 8802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1008,
-								1008
+								8697,
+								8697
 							]
 						],
 						"settings":
@@ -1793,7 +1793,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1064.0,
+						"translation.y": 2704.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1968,15 +1968,15 @@
 					"file": "js/chapter-01.js",
 					"settings":
 					{
-						"buffer_size": 9761,
+						"buffer_size": 9743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7014,
-								7014
+								7039,
+								7039
 							]
 						],
 						"settings":
@@ -2122,7 +2122,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 796.0,
+						"translation.y": 310.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2139,8 +2139,8 @@
 						"selection":
 						[
 							[
-								5134,
-								5134
+								3725,
+								3725
 							]
 						],
 						"settings":
@@ -2286,7 +2286,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3565.0,
+						"translation.y": 2664.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
