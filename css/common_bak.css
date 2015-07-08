@@ -46,11 +46,11 @@ input::-ms-clear { display: none; }
 input, textarea, select { outline: none; }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #ccc; }
 .clearfix:after { clear: both; content: ""; display: block; height: 0; visibility: hidden; }
+html, body { width: 100%; height: 100%; }
+body { margin: 0 auto; width: 640px; height: 100%; overflow-x: hidden; }
 .clearfix { display: inline-block; }
 * html .clearfix { }
 .clearfix { display: block; }
-html, body { width: 100%; height: 100%; }
-body { margin: 0 auto; width: 640px; min-height: 100%; overflow-x: hidden; }
 /*img*/
 
 /*font*/
@@ -80,7 +80,6 @@ body { margin: 0 auto; width: 640px; min-height: 100%; overflow-x: hidden; }
 .tr { text-align: right; }
 .tc { text-align: center; }
 .cp { cursor: pointer; }
-.w1p { width: 100%; }
 .relative-box { position: relative; width: 100%; height: 100%; }
 .absolute-box { position: absolute; }
 .list-wrap { margin: 0 auto; width: 100%; overflow: hidden; }
@@ -108,6 +107,16 @@ body { margin: 0 auto; width: 640px; min-height: 100%; overflow-x: hidden; }
 #advice .relative-box { width: 100%; height: 100%; }
 #advice img { position: absolute; top: 50%; left: 50%; margin: -100px 0 0 -100px; width: 200px; height: 200px; display: block; }
 
+.yinle1, .yinle1:after { position: absolute; top: 50px; right: 50px; z-index: 99999; width: 50px; height: 50px; line-height: 50px; text-align: center; color: #fff; border: solid 1px #fff; border-radius: 50px; background: url(../images/null.gif) repeat; cursor: pointer; opacity: 0; display: none;
+  font-family:"iconfont" !important;
+  font-size:30px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.yinle1.play { animation: musicPlay 2s linear 0 infinite; -webkit-animation: musicPlay 2s linear 0 infinite; }
+@-webkit-keyframes musicPlay { from { transform: rotate(0deg); -webkit-transform: rotate(0deg); } to { transform: rotate(360deg); -webkit-transform: rotate(360deg); } }
+
 /*style*/
 #pageWrap, #content { margin: 0 auto; width: 100%; height: 100%; overflow: hidden; }
 
@@ -129,6 +138,6 @@ body { margin: 0 auto; width: 640px; min-height: 100%; overflow-x: hidden; }
 .x2d { animation: x2d .3s; -webkit-animation: x2d .3s; }
 .step-logo .x2d { transform: scale(1); -webkit-transform: scale(1); opacity: 1; }
 @-webkit-keyframes IR { from { transform: rotate(0); -webkit-transform: rotate(0); } to { transform: rotate(360deg); -webkit-transform: rotate(360deg); } }
-.IR { animation: IR 5s linear infinite; -webkit-animation: IR 5s linear infinite; transform-origin: center; -webkit-transform-origin: center; }
+.IR { animation: IR 5s linear 0 infinite; -webkit-animation: IR 5s linear 0 infinite; transform-origin: center; -webkit-transform-origin: center; }
 .step-logo .t-s { position: absolute; top: 70px; left: 50%; margin-left: -415px; width: 640px; text-align: right; letter-spacing: 5px; font-family: PS2; font-size: 24px; text-shadow: 5px 5px 1px #ccc; display: none; }
 .step-logo .t-s span { padding-left: 70px; display: block; }

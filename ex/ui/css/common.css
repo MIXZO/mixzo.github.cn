@@ -1,0 +1,46 @@
+﻿/*class*/
+.fl { float: left; }
+.fr { float: right; }
+.fb { font-weight: bold; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.tc { text-align: center; }
+.relative-box { position: relative; }
+.absolute-box { position: absolute; }
+.list-wrap { margin: 0 auto; width: 100%; overflow: hidden; }
+.colorFFF { color: #fff; }
+.color000 { color: #000; }
+.lazyload { /*background: url(../images/loading.gif) no-repeat center center; */}
+.portrait { }
+.landscape { }
+/*img*/
+/*module*/
+.module-tit { margin-top: 10px; }
+.module-tit span { padding: 2px 5px; color: #fff; background-color: #26A0DA; display: inline-block; }
+
+.module-btn { width: 60px; height: 30px; line-height: 30px; text-align: center; overflow: hidden; display: inline-block; }
+.module-btn-black { background-color: #333; border: solid 1px #ccc; }
+.module-btn-white { color: #333; border: solid 1px #ccc; }
+/*style*/
+body { padding: 10px; }
+header { height: 60px; line-height: 60px; overflow: hidden; }
+header h1 { padding: 0 20px; color: #fff; font-size: 24px; background-color: #26A0DA; }
+
+#content {}
+#content .list-plugin { border: solid 1px #ccc; border-top: none; }
+#content .list-plugin li { }
+#content .list-plugin li.view-box { float: left; padding: 20px 10px; width: 290px; border-right: solid 1px #ccc; }
+#content .list-plugin li.view-box .plugin-name { }
+#content .list-plugin li.view-box .plugin-name h3 { float: left; margin: 0 10px 5px 0; height: 24px; line-height: 24px; color: #26A0DA; font-size: 20px; overflow: hidden; }
+#content .list-plugin li.view-box .plugin-name span { float: left; margin: 0 10px 5px 0; padding: 0 5px; height: 24px; line-height: 24px; color: #fff; background-color: #26A0DA; overflow: hidden; display: inline-block; }
+#content .list-plugin li.view-box .module-tit { margin-top: 5px; }
+#content .list-plugin li.view-box .module-tit span { background-color: #999; }
+#content .list-plugin li.view-box .view-con { padding: 10px 10px 10px 0; }
+#content .list-plugin li.code-box { float: none; margin-left: 310px; padding: 20px; border-left: solid 1px #ccc; }
+#content .list-plugin li.code-box table { margin-top: 2px; border: solid 1px #ccc; border-width: 1px 0 0 1px; }
+#content .list-plugin li.code-box table tr:nth-child(2n+1) { background-color: #eee; }
+#content .list-plugin li.code-box table th, #content .list-plugin li.code-box table td { padding: 4px 10px; height: 36px; line-height: 20px; text-align: center; border: solid 1px #ccc; border-width: 0 1px 1px 0; }
+#content .list-plugin li.code-box table th { border-top: solid 2px #26A0DA; }
+#content .list-plugin li.code-box table td { font-family: arial; }
+#content .list-plugin li.code-box table .caption { text-align: left; }
+#content .list-plugin xmp { margin: 0; white-space: pre-wrap; }

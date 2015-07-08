@@ -1,0 +1,2254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROJECT×ZO×UI Plugin for WEB</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/common.css" rel="stylesheet" type="text/css" />
+	<link href="css/page.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<h1>PROJECT×ZO×UI Plugin for WEB</h1>
+	</header>
+	<div id="content">
+		<!-- 分辨率 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>获取页面分辨率</h3>
+					<span>ZScreenWidth()</span>
+					<span>ZScreenHeight()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$.ZScreenWidth();</span>
+				</h3>
+				<div class="view-con">
+					<div class="ZDimensions-box clearfix">
+						<p class="value">0</p>
+						<a class="btn-get btn-getWidth module-btn module-btn-black" href="javascript:;">CLICK</a>
+					</div>
+				</div>
+				<h3 class="module-tit">
+					<span>$.ZScreenHeight();</span>
+				</h3>
+				<div class="view-con">
+					<div class="ZDimensions-box clearfix">
+						<p class="value">0</p>
+						<a class="btn-get btn-getHeight module-btn module-btn-black" href="javascript:;">CLICK</a>
+					</div>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZScreenWidth</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								获取页面宽度
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>ZScreenHeight</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								获取页面高度
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+NULL					
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+			</li>
+		</ul>
+		<!-- hover -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>元素Hover</h3>
+					<span>ZObjHover()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZObjHover-1').ZObjHover();</span>
+				</h3>
+				<div class="view-con">
+					<a class="ZObjHover ZObjHover-1" href="javascript:;">objHover</a>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZObjHover-2 li').ZObjHover({funType: 'tab'});</span>
+				</h3>
+				<div class="view-con">
+					<ul class="ZObjHover ZObjHover-2 clearfix">
+						<li class="hover">item1</li>
+						<li>item2</li>
+						<li>item3</li>
+					</ul>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZObjHover</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								元素hover状态添加删除样式名hover
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<a class="ZObjHover ZObjHover-1" href="javascript:;">objHover</a>
+<ul class="ZObjHover ZObjHover-2 clearfix">
+	<li class="hover">item1</li>
+	<li>item2</li>
+	<li>item3</li>
+</ul>
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZObjHover { height: 30px; line-height: 30px; text-align: center; color: #000; background-color: #fff; border: solid 1px #000; overflow: hidden; display: block; transition: all 0.2s ease-in-out 0s; }
+.ZObjHover.hover { color: #fff; background-color: #000; }
+.ZObjHover-2 { height: 32px; border: none; }
+.ZObjHover-2 li { float: left; margin-right: 10px; width: 60px; height: 30px; line-height: 30px; text-align: center; color: #000; background: #fff; border: solid 1px #ccc; overflow: hidden; display: inline-block; cursor: pointer; transition: all 0.2s ease-in-out 0s; }
+.ZObjHover-2 li.hover { color: #fff; background: #333; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- current选中 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>元素单选切换(TAB)</h3>
+					<span>ZObjCurrent()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZObjCurrent-1 li').ZObjCurrent();</span>
+				</h3>
+				<div class="view-con">
+					<ul class="ZObjCurrent ZObjCurrent-1 clearfix">
+						<li class="current">item1</li>
+						<li>item2</li>
+						<li>item3</li>
+					</ul>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZObjCurrent-2 li').ZObjCurrent({funType: 'tab'});</span>
+				</h3>
+				<div class="view-con">
+					<ul class="ZObjCurrent ZObjCurrent-2 clearfix">
+						<li class="current">item1</li>
+						<li>item2</li>
+						<li>item3</li>
+					</ul>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZObjCurrent</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								元素单选切换(TAB)
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<ul class="ZObjCurrent clearfix">
+	<li class="current">item1</li>
+	<li>item2</li>
+	<li>item3</li>
+</ul>
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZObjCurrent { }
+.ZObjCurrent li { float: left; margin-right: 10px; width: 60px; height: 30px; line-height: 30px; text-align: center; color: #000; background: #fff; border: solid 1px #ccc; overflow: hidden; display: inline-block; cursor: pointer; transition: all 0.2s ease-in-out 0s; }
+.ZObjCurrent li.current { color: #fff; background: #333; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 弹出框 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>弹出框模块</h3>
+					<span>ZShowbox()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZShowbox-1').ZShowbox({showType: 'show'});</span>
+				</h3>
+				<div class="view-con">
+					<a class="ZShowboxBtn ZShowboxBtn-1 module-btn module-btn-black" href="javascript:;">BOX1</a>
+					<div class="ZShowbox ZShowbox-1">
+						<a class="show-close" href="javascript:;"><i></i></a>
+				        <h3 class="show-tit">
+				            <p class="txt">弹出框1</p>
+				        </h3>
+				        <div class="show-con">
+				        	<p style="padding: 25px 30px;">弹出框内容</p>
+				        </div>
+				    </div>
+				</div>
+				<h3 class="module-tit">
+					<span>$(window).ZShowbox().allShow('.ZShowbox-1');</span>
+				</h3>
+				<div class="view-con">
+					<a class="ZShowboxBtn ZShowboxBtn-2 module-btn module-btn-black" href="javascript:;">BOX1</a>
+					<div class="ZShowbox ZShowbox-2">
+						<a class="show-close" href="javascript:;"><i></i></a>
+				        <h3 class="show-tit">
+				            <p class="txt">弹出框2</p>
+				        </h3>
+				        <div class="show-con">
+				        	<p style="padding: 25px 30px;">弹出框内容</p>
+				        </div>
+				    </div>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZShowbox</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								开启弹出框插件模块
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								bgFrame
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								true
+							</td>
+							<td class="caption">
+								是否需要遮罩层
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								bgFrameClose
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								点击遮罩层是否关闭弹出框
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								showType
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								弹出框类型，show：显示页面弹出框；create：创建新弹出框
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createClassName
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								'ZShowbox-create'
+							</td>
+							<td class="caption">
+								创建弹出框的className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createTitTxt
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								'提示信息'
+							</td>
+							<td class="caption">
+								创建模式弹出框标题
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createConHTML
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建模式内容HTML
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createBtnType
+							</td>
+							<td>
+								Number
+							</td>
+							<td>
+								0
+							</td>
+							<td class="caption">
+								创建模式弹出框类型（0.弹出框，1.提示框，2.确认框）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createIcoClose
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建模式关闭按钮回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createCallbackConfirm
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建模式确认按钮回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createCallbackCancel
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建模式取消按钮回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								createBgSave
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								创建模式是否保留背景（boolen，true为保留）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>createBox</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建弹出框
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								className
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建弹出框的className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								titTxt
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建弹出框的标题
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								conHTML
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建弹出框的内容HTML
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								conHTML
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建弹出框的内容HTML
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								btnType
+							</td>
+							<td>
+								Number
+							</td>
+							<td>
+								0
+							</td>
+							<td class="caption">
+								创建弹出框类型（0.弹出框，1.提示框，2.确认框）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callbackConfirm
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								确认按钮回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callbackCancel
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								取消按钮回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								bgSave
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								是否保留背景（boolen，true为保留）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>allShow</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								显示指定弹出框&遮罩层
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								执行对象className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>allHide</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								关闭所有弹出&框遮罩
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>boxShow</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								显示指定弹出框
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								执行对象className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>boxHide</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								隐藏所有弹出框
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>objHide</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								关闭指定弹出框
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								执行对象className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>objRemove</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								删除指定内容
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								执行对象className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>bgAdd</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								创建遮罩层
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>bgDel</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								删除遮罩层
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>clickClose</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								弹出框关闭操作
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								bgFrameClose
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								是否点击遮罩关闭（可选，boolean）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								closeType
+							</td>
+							<td>
+								Number
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								关闭模式（0.隐藏，1.删除）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>showPositionFix</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								弹出框定位
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b></b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								执行对象className
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<a class="ZShowboxBtn ZShowboxBtn-1 module-btn module-btn-black" href="javascript:;">BOX1</a>
+<div class="ZShowbox ZShowbox-1">
+	<a class="show-close" href="javascript:;"><i></i></a>
+    <h3 class="show-tit">
+        <p class="txt">弹出框</p>
+    </h3>
+    <div class="show-con">
+    	<p style="padding: 25px 30px;">弹出框内容</p>
+    </div>
+</div>
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZShowbox { position: fixed; top: 50%; left: 50%; z-index: 99999; _position: absolute; _margin-top: 0; width: 200px; color: #000; font-size: 14px; border: solid 1px #000; background: #fff; box-shadow: 0 0 3px #000; overflow: hidden; display: none; }
+.ZShowbox .show-tit { padding-left: 15px; height: 42px; line-height: 42px; color: #fff; background-color: #000; overflow: hidden; zoom: 1; }
+.ZShowbox .show-tit .txt { float: left; }
+.ZShowbox .show-close { position: absolute; top: 0; right: 0; width: 42px; height: 42px; background: #333; overflow: hidden; display: block; cursor: pointer; }
+.ZShowbox .show-close i { width: 100%; height: 100%; background: url(../images/showbox_close.png) no-repeat center center; overflow: hidden; display: block; transition: all 0.5s ease-in-out 0s; }
+.ZShowbox .show-close:hover i { -webkit-transform: rotate(180deg); -webkit-transform-origin: 50% 50%; transform: rotate(180deg); transform-origin: 50% 50%; filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
+.ZShowbox .show-con { margin: 0 auto; border-top: solid 1px #D6D6D6; overflow: hidden; }
+.ZShowbox .show-con .inner-box { padding: 25px 30px; }
+.ZShowbox .show-op { padding-bottom: 10px; text-align: center; }
+#bgScreen, #bgIFrame { position: fixed; top: 0; left: 0; z-index: 999; width: 100%; background: #000; filter: alpha(opacity=30); opacity: 0.3; _position: absolute; _top: expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight ); _left: expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth); }
+#bgIFrame { z-index: 998; filter: alpha(opacity=0); opacity: 0; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 容器居中 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>容器居中</h3>
+					<span>ZCenter()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$(obj).ZCenter(loaded);</span>
+				</h3>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZCenter</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								容器居中
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								loaded
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								true
+							</td>
+							<td class="caption">
+								滚动时是否需要保持居中（Boolean，true为是）
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+NULL					
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+			</li>
+		</ul>
+		<!-- 鼠标点击空白区域元素消失 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>鼠标点击空白区域元素消失</h3>
+					<span>ZBlankHide()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$(obj).ZBlankHide({callback:function(){}});</span>
+				</h3>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZBlankHide</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								鼠标点击空白区域元素消失
+							</td>
+						</tr>
+						<td>
+								<b>ZBlankHide</b>
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								true
+							</td>
+							<td class="caption">
+								callback：回调函数
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+NULL					
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+			</li>
+		</ul>
+		<!-- 删除元素 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>删除元素</h3>
+					<span>ZObjDel()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZObjDel .btn-del').ZObjDel({<br>
+						targetClassName:'.ZObjDel'<br>
+					});</span>
+				</h3>
+				<div class="view-con">
+					<div class="ZObjDel clearfix">
+						<span class="txt">content</span>
+						<a class="btn-del module-btn module-btn-black" href="javascript:;">删除</a>
+					</div>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZObjDel</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								删除元素
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								btnClassName
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								.btn-del
+							</td>
+							<td class="caption">
+								需要删除元素的删除按钮className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								targetClassName
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								li
+							</td>
+							<td class="caption">
+								需要删除元素的父级容器className
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								animateType
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								slide
+							</td>
+							<td class="caption">
+								删除动画；slideUp：滑动；fade：淡出；none：无动画
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<div class="ZObjDel clearfix">
+	<span class="txt">content</span>
+	<a class="btn-del module-btn module-btn-black" href="javascript:;">删除</a>
+</div>				
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZObjDel { width: 200px; line-height: 30px; border: solid 1px #ccc; }
+.ZObjDel .txt { float: left; padding: 0 10px; }
+.ZObjDel .btn-del { float: right; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 文本框控制 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>文本框控制</h3>
+					<span>ZInput()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZInput').ZInput();</span>
+				</h3>
+				<div class="view-con">
+					<div class="ZInput ZInput-1">
+                        <div class="relative-box">
+                        	<input type="text">
+                            <p class="ts-box ts-type">提示文字</p>
+                            <p class="ts-box ts-success"><i></i></p>
+                            <p class="ts-box ts-error clearfix" style="display:block;"><i></i><span class="txt">格式错误</span></p>
+                        </div>
+                    </div>
+				</div>
+				<br>
+				<h3 class="module-tit">
+					<span>$(window).ZInput({<br>
+						allFun:false<br>
+					}).inputCheckValue('.ZInput-2');</span>
+				</h3>
+				<div class="view-con">
+					<div class="ZInput ZInput-2">
+                        <div class="relative-box">
+                        	<input type="text" value="checkValue">
+                            <p class="ts-box ts-type">提示文字</p>
+                            <p class="ts-box ts-success"><i></i></p>
+                            <p class="ts-box ts-error clearfix" style="display:block;"><i></i><span class="txt">格式错误</span></p>
+                        </div>
+                    </div>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZInput</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								文本框控制
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								allFun
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								true
+							</td>
+							<td class="caption">
+								选择是否调用所有方法（Boolean）
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>inputFocus</b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								文本框获得焦点状态；obj：执行对象名称
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>inputBlur</b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								文本框失去焦点状态；obj：执行对象名称
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>inputCheckValue</b>
+							</td>
+							<td>
+								obj
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								页面刷新后监测文本框有无内容，如果有隐藏提示消息；obj：执行对象名称
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<div class="ZInput">
+    <div class="relative-box">
+    	<input type="text">
+        <p class="ts-box ts-type">提示文字</p>
+        <p class="ts-box ts-success"><i></i></p>
+        <p class="ts-box ts-error clearfix"><i></i><span class="txt">格式错误</span></p>
+    </div>
+</div>
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZInput { padding: 0 10px; height: 34px; line-height: 34px; border: solid 1px #ccc; border-radius: 1px; -webkit-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; }
+.ZInput.focus { border-color: #000; -webkit-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; }
+.ZInput .relative-box { z-index: 1; }
+.ZInput input { position: relative; z-index: 1; float: left; width: 100%; height: 34px; line-height: 34px; color: #999; background: url(../images/null.gif) repeat; border: none; }
+.ZInput .ts-box { position: absolute; top: 0; left: 0; z-index: -1; }
+.ZInput .ts-type { color: #9c9c9c; font-size: 12px; }
+.ZInput .ts-success { display: none; }
+.ZInput .ts-error { padding: 0; top: 39px; left: -10px; line-height: 14px; color: red; display: none; }
+.ZInput .ts-error i { float: left; margin: 0 5px 0 0; width: 14px; height: 14px; background: red; overflow: hidden; }
+.ZInput .ts-error .txt { float: left; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 模拟select选择 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>模拟select选择</h3>
+					<span>ZSelect()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$('.ZSelect').ZSelect();</span>
+				</h3>
+				<div class="view-con">
+					<div class="ZSelect">
+					    <div class="relative-box">
+					    	<input value="" class="value">
+					        <em><i></i></em>
+					        <div class="show-select">
+					            <dl>
+					                <dd data-value="1">item1</dd>
+					                <dd data-value="2">item2</dd>
+					            </dl>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZSelect</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								模拟select选择
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								scrollHeight
+							</td>
+							<td>
+								Number
+							</td>
+							<td>
+								200
+							</td>
+							<td class="caption">
+								设置滚动条最小高度
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								valueCross
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								设置点击结果后是否交叉传值
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<div class="ZSelect">
+    <div class="relative-box">
+    	<input value="" class="value">
+        <em><i></i></em>
+        <div class="show-select">
+            <dl>
+                <dd data-value="1">item1</dd>
+                <dd data-value="2">item2</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZSelect { height: 34px; background-position: 0 -76px; border: solid 1px #ccc; cursor: pointer; }
+.ZSelect .relative-box { z-index: 1; zoom: 1; }
+.ZSelect.current .relative-box { z-index: 2; }
+.ZSelect .value { width: 80%; height: 34px; line-height: 34px; padding: 0 10px; color: #999; background: url(../images/null.gif) repeat; border: none; overflow: hidden; }
+.ZSelect em { position: absolute; top: 0; right: 0; width: 24px; height: 34px; border-left: solid 1px #ccc; overflow: hidden; display: block; cursor: pointer; }
+.ZSelect i { float: left; margin: 15px 0 0 6px; width: 0; height: 0; border-style: solid; border-width: 6px; border-color: #ccc #fff #fff; overflow: hidden; display: inline; }
+.ZSelect .show-select { position: absolute; top: 34px; left: -1px; width: 100%; background-color: #fff; border: solid 1px #d0d0d0; overflow-y: auto; display: none; }
+.ZSelect.current .show-select { display: block; }
+.ZSelect .show-select dl { padding-bottom: 5px; overflow: hidden; }
+.ZSelect .show-select dd { margin-top: 5px; padding: 5px 12px; line-height: 20px; cursor: pointer; }
+.ZSelect .show-select dd.hover { color: #fff; background-color: #333; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 模拟input radio选择 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>模拟input radio选择</h3>
+					<span>ZRadio()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$(window).ZRadio({<br>
+						itemClassName:'.ZRadio .value'<br>
+					});</span>
+				</h3>
+				<div class="view-con">
+					<dl class="ZRadio ZCR clearfix">
+						<dd class="item clearfix">
+							<div class="value clearfix" group="item-1">
+								<em><i></i></em>
+								<div class="txt">item-1</div>
+							</div>
+						</dd>
+						<dd class="item clearfix">
+							<div class="value clearfix" group="item-1">
+								<em><i></i></em>
+								<div class="txt">item-2</div>
+							</div>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZRadio</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								模拟input radio选择
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								itemClassName
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								.ZRadio .value
+							</td>
+							<td class="caption">
+								被选择元素的className
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<dl class="ZRadio ZCR clearfix">
+	<dd class="item clearfix">
+		<div class="value clearfix" group="item-1">
+			<em><i></i></em>
+			<div class="txt">item-1</div>
+		</div>
+	</dd>
+	<dd class="item clearfix">
+		<div class="value clearfix" group="item-1">
+			<em><i></i></em>
+			<div class="txt">item-2</div>
+		</div>
+	</dd>
+</dl>					
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZCR { line-height: 26px; }
+.ZCR .item { position: relative; float: left; width: 100%; }
+.ZCR .value { float: left; cursor: pointer; }
+.ZCR .txt { float: left; }
+.ZRadio em { float: left; width: 25px; display: block; }
+.ZRadio em i { float: left; }
+.ZRadio em i { margin-top: 7px; width: 13px; height: 13px; background: #ccc; overflow: hidden; cursor: pointer; }
+.ZRadio .current em i { background: #000; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 模拟input checkbox选择 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>模拟input checkbox选择</h3>
+					<span>ZCheckBox()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$(window).ZCheckBox({<br>
+						itemClassName:'.ZCheckBox .value'<br>
+					});</span>
+				</h3>
+				<div class="view-con">
+					<dl class="ZCheckBox ZCR clearfix">
+						<dd class="item clearfix">
+							<div class="value clearfix">
+								<em><i></i></em>
+								<div class="txt">item-1</div>
+							</div>
+						</dd>
+						<dd class="item clearfix">
+							<div class="value clearfix">
+								<em><i></i></em>
+								<div class="txt">item-2</div>
+							</div>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZCheckBox</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								模拟input checkbox选择
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								itemClassName
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								.ZCheckBox .value
+							</td>
+							<td class="caption">
+								被选择元素的className
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+<dl class="ZCheckBox ZCR clearfix">
+	<dd class="item clearfix">
+		<div class="value clearfix">
+			<em><i></i></em>
+			<div class="txt">item-1</div>
+		</div>
+	</dd>
+	<dd class="item clearfix">
+		<div class="value clearfix">
+			<em><i></i></em>
+			<div class="txt">item-2</div>
+		</div>
+	</dd>
+</dl>					
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+.ZCR { line-height: 26px; }
+.ZCR .item { position: relative; float: left; width: 100%; }
+.ZCR .value { float: left; cursor: pointer; }
+.ZCR .txt { float: left; }
+.ZCheckBox em { float: left; width: 25px; display: block; }
+.ZCheckBox em i { float: left; }
+.ZCheckBox em i { margin-top: 7px; width: 13px; height: 13px; background: #ccc; overflow: hidden; cursor: pointer; }
+.ZCheckBox .current em i { background: #000; }
+				</xmp>
+			</li>
+		</ul>
+		<!-- 自适应子容器高度 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>自适应子容器高度</h3>
+					<span>ZAutoHeight()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$(window).ZAutoHeight()</span>
+				</h3>
+				<div class="view-con">
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZAutoHeight</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								自适应子容器高度
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								animateType
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								slide
+							</td>
+							<td class="caption">
+								动画类型；slideUp：滑动；fade：淡出；none：无动画
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								isResize
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								在窗口大小发生变化时是否自适应
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								callback
+							</td>
+							<td>
+								Function
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								回调函数
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+			</li>
+		</ul>
+		<!-- 背景图片居中 -->
+		<ul class="list-plugin clearfix">
+			<li class="view-box">
+				<div class="plugin-name clearfix">
+					<h3>背景图片居中</h3>
+					<span>ZVMiddleImg()</span>
+				</div>
+				<h3 class="module-tit">
+					<span>$(obj).ZVMiddleImg()</span>
+				</h3>
+				<div class="view-con">
+				</div>
+			</li>
+			<li class="code-box">
+				<table width="100%">
+					<tbody>
+						<tr>
+							<th width="120">
+								方法
+							</th>
+							<th width="120">
+								参数
+							</th>
+							<th width="120">
+								类型
+							</th>
+							<th width="120">
+								默认值
+							</th>
+							<th>
+								说明
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<b>ZVMiddleImg</b>
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								背景图片居中
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								'width'
+							</td>
+							<td>
+								Number
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								设置容器宽度
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								'height'
+							</td>
+							<td>
+								Number
+							</td>
+							<td>
+								NULL
+							</td>
+							<td class="caption">
+								设置容器宽度
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								vmType
+							</td>
+							<td>
+								String
+							</td>
+							<td>
+								max
+							</td>
+							<td class="caption">
+								居中模式；max：放大模式；min：缩小模式
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td>
+								isResize
+							</td>
+							<td>
+								Boolean
+							</td>
+							<td>
+								false
+							</td>
+							<td class="caption">
+								在窗口大小发生变化时是否重新计算
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3 class="module-tit">
+					<span>HTML</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+				<h3 class="module-tit">
+					<span>CSS</span>
+				</h3>
+				<xmp>
+NULL
+				</xmp>
+			</li>
+		</ul>
+	</div>
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="js/zoui.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('.ZDimensions-box .btn-get').click(function() {
+				if ($(this).hasClass('btn-getWidth')) {
+					$(this).siblings('.value').text($.ZScreenWidth());
+				}
+				else {
+					$(this).siblings('.value').text($.ZScreenHeight());
+				};
+			});
+			$('.ZObjHover-1').ZObjHover();
+			$('.ZObjHover-2 li').ZObjHover({ funType: 'tab' });
+			$('.ZObjCurrent-1 li').ZObjCurrent();
+			$('.ZObjCurrent-2 li').ZObjCurrent({
+				funType: 'tab'
+			});
+			$('.ZShowboxBtn-1').die().live('click', function() {
+				$('.ZShowbox-1').ZShowbox({
+					showType: 'show'
+				});
+			});
+			$('.ZShowboxBtn-2').die().live('click', function() {
+				$(window).ZShowbox().allShow('.ZShowbox-1');
+			});
+			$('.ZObjDel .btn-del').ZObjDel({ targetClassName : '.ZObjDel' });
+			$('.ZInput').ZInput();
+			$(window).ZInput({
+				allFun: false
+			}).inputCheckValue('.ZInput-2');
+			$('.ZSelect').ZSelect();
+			$(window).ZRadio();
+			$(window).ZCheckBox();
+		});
+	</script>
+</body>
+</html>

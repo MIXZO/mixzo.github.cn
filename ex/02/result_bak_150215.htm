@@ -1,0 +1,254 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>任性租车，cocar新年大红包</title>
+    <meta charset="utf-8" />
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="title" content="任性租车，cocar新年大红包" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="MIXZO">
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta name="revisit-after" content="1" />
+    <meta name="robots" content="index,follow" />
+    <script type="text/javascript">
+        if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
+            var version = parseFloat(RegExp.$1);
+            if(version>2.3){
+                var phoneScale = parseInt(window.screen.width)/640;
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        }else{
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="loading" class="loading">
+        <div class="circle01"></div>
+        <div class="circle02"></div>
+    </div>
+    <div id="pageWrap">
+        <div id="content" class="page-result">
+            <div class="gift-box">
+                <div class="relative-box">
+                    <p class="item bg-open"></p>
+                    <p class="item bg-frame"></p>
+                    <p class="item t-1">
+                        红包即将开启…<br>
+                        最高达1000元<br>
+                        你的是多少呢？
+                    </p>
+                    <div class="item jhm-box">
+                        <p>
+                            恭喜你获得 1 张<span class="num">200</span>元红包<br>
+                            激活码为<br>
+                            <span class="code">20150210</span>
+                        </p>
+                    </div>
+                    <div class="item g-box">
+                        <div class="relative-box">
+                            <p class="item top"></p>
+                            <p class="item body"></p>
+                            <p class="item light"></p>
+                        </div>
+                    </div>
+                    <div class="item t-b t-2">
+                        <p>
+                            你还有 <span class="total">2</span> 次机会
+                        </p>
+                        <a class="btn-op btn-get" href="javascript:;">继续领取</a>
+                    </div>
+                    <div class="item t-b t-3">
+                        <p>
+                            你还可以分享给朋友获得“额外的2次机会”
+                        </p>
+                        <a class="btn-op btn-share" href="javascript:;">分享到朋友圈</a>
+                    </div>
+                </div>
+            </div>
+            <div class="txt-box clearfix">
+                <img class="logo" src="images/img/img_cjzt_logo.png" alt="cocar共享租车">
+                <p class="txt">
+                    激活码需要下载手机APP才能使用<br>
+                    获取更多租车优惠，<a href="http://www.cocar.com/d/">立即下载APP</a>
+                </p>
+            </div>
+            <div class="ts-share">
+                <div class="relative-box">
+                    <p class="bg"></p>
+                    <img src="images/png_cjzt_share_ts.png" alt="">
+                    <a class="close" href="javascript:;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="advice">
+        <div class="relative-box">
+            <img src="images/advice.png" />
+        </div>
+    </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src='js/jquery.transit.min.js'></script>
+    <script src="js/zoui.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var pageFun = function() {
+                var giftBox = $('.gift-box');
+                var formatG = function() {
+                    giftBox.find('.t-1').hide();
+                    giftBox.find('.g-box').removeClass('rotate');
+                    giftBox.find('.g-box .top').css({'top': '0', 'opacity': '1'});
+                    giftBox.find('.g-box .light').hide();
+                    giftBox.find('.jhm-box').hide();
+                    giftBox.find('.bg-open').hide();
+                    giftBox.find('.t-b').hide();
+                }
+                var s_1 = function(gNum, gCode, gRest) {    //抽奖动画
+                    formatG();
+                    giftBox.find('.t-1').fadeIn(1500);
+                    setTimeout(function() {
+                        giftBox.find('.g-box').addClass('rotate');
+                    }, 2000);
+                    setTimeout(function() {
+                        giftBox.find('.g-box .top').animate({
+                            'top': '-100px',
+                            'opacity': '0'
+                        }, 1000);
+                    }, 3000);
+                    setTimeout(function() {
+                        giftBox.find('.g-box .light').show().css('opacity', '0').animate({
+                            'opacity': '1'
+                        }, 1000);
+                    }, 3000);
+                    var jhmFun = function(gNum, gCode) {
+                        giftBox.find('.jhm-box .num').text(gNum).siblings('.code').text(gCode);
+                        giftBox.find('.jhm-box').show().css({
+                            'opacity': '0',
+                            'transform': 'scale(0)'
+                        }).transition({
+                            'opacity': '1',
+                            'scale': '1'
+                        }, 500);
+                    }
+                    setTimeout(function() {
+                        jhmFun(gNum, gCode);
+                    }, 4000);
+                    setTimeout(function() {
+                        giftBox.find('.bg-open').fadeIn('slow');
+                    }, 4000);
+                    var restFun = function(gRest) {
+                        giftBox.find('.t-2 .total').text(gRest);
+                        if (gRest == 0) {
+                            giftBox.find('.t-3').fadeIn('slow');
+                        } else {
+                            giftBox.find('.t-2').fadeIn('slow');
+                        };
+                    }
+                    setTimeout(function() {
+                        restFun(gRest);
+                    }, 5000);
+                }
+
+                window.onload = function() {
+                    if (document.readyState == 'complete') {
+                        $('#loading').fadeOut('slow', function() {
+                            s_1('500', '12345678', '1');
+                        });
+                    }
+                }
+
+                //领取红包
+                $('.gift-box .t-2 .btn-get').click(function() {
+                    s_1('999', '00000000', '0');
+                });
+                //分享
+                $('.gift-box .t-3 .btn-share').click(function() {
+                    $('.ts-share').show();
+                });
+                //关闭分享提示
+                $('.ts-share .close').click(function() {
+                    $('.ts-share').hide();
+                });
+            }
+            pageFun();
+        });
+    </script>
+    <script>
+        var root = 'http://192.168.13.223:15023/';
+        var gNum = $('.gift-box .num').text();
+        var shareFormat = function() {
+            $('.gift-box .ts-share').hide();
+            $('.gift-box .t-3 p').text('你的机会已全部使用，尽情期待下一次活动');
+        }
+
+        wx.config({
+            debug: true,
+            appId: 'wxf8b4f85f3a794e77',
+            timestamp: 1423726008,
+            nonceStr: 'j9Xm6ZK3d2yztDZx',
+            signature: 'cf5657a1f346e35d5d89171847d71264df7ff0a9',
+            jsApiList: [
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage'
+            ]
+        });
+        wx.ready(function() {
+            // 2. 分享接口
+            // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
+            wx.onMenuShareAppMessage({
+                title: '长大没红包，cocar来安慰，我已经领到了x元租车券，3次机会领到手软。不先说了，我租车出去玩了。',
+                desc: '长大没红包，cocar来安慰，我已经领到了x元租车券，3次机会领到手软。不先说了，我租车出去玩了。',
+                link: window.location.href,
+                imgUrl: root + 'images/ico_wx.png',
+                trigger: function(res) {
+                    // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+                    alert('用户点击发送给朋友');
+                },
+                success: function(res) {
+                    shareFormat();
+                    alert('已分享');
+                },
+                cancel: function(res) {
+                    alert('已取消');
+                },
+                fail: function(res) {
+                    alert(JSON.stringify(res));
+                }
+            });
+
+            // 2.2 监听“分享到朋友圈”按钮点击、自定义分享内容及分享结果接口
+            wx.onMenuShareTimeline({
+                title: '长大没红包，cocar来安慰，我已经领到了x元租车券，3次机会领到手软。不先说了，我租车出去玩了。',
+                link: window.location.href,
+                imgUrl: root + 'images/ico_wx.png',
+                trigger: function(res) {
+                    // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+                    alert('用户点击分享到朋友圈');
+                },
+                success: function(res) {
+                    shareFormat();
+                    alert('已分享');
+                },
+                cancel: function(res) {
+                    alert('已取消');
+                },
+                fail: function(res) {
+                    alert(JSON.stringify(res));
+                }
+            });
+        });
+    </script>
+</body>
+</html>
