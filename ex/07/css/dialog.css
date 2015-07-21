@@ -1,0 +1,36 @@
+﻿/*img*/
+.dialog-box h1 .logo, .dialog-output .ico, .dialog-input .op-box a, .dialog-input .input-box a.btn-send { background: url(../images/img_bg.png) no-repeat; }
+/*style*/
+.dialog-box { padding: 0 17px; width: 744px; height: 558px; background: url(../images/bg_dialog.jpg) repeat-x; overflow: hidden; }
+.dialog-box h2 { float: left; margin-top: 22px; color: #fff; font-size: 20px; }
+.dialog-box h2 span { font-size: 14px; }
+.dialog-box h1 { float: right; }
+.dialog-box h1 a.logo { margin: 23px 4px 0 0; width: 148px; height: 19px; text-indent: -999px; background-position: -233px -835px; overflow: hidden; display: block; }
+.dialog-output-wrap { margin-top: 15px; padding: 10px 0; background: #fff; border-radius: 5px; overflow: hidden; }
+.dialog-output { position: relative; height: 330px; overflow: hidden; zoom: 1; overflow-y: auto; }
+.dialog-output .inner-box { padding-top: 15px; overflow: hidden; zoom: 1; }
+.dialog-output ul { position: relative; width: 100%; margin-bottom: 20px; overflow: hidden; zoom: 1; }
+.dialog-output li { float: left; font-size: 14px; overflow: hidden; display: inline; }
+.dialog-output ul.side { float: left; }
+.dialog-output .ico { position: absolute; top: 10px; width: 7px; height: 14px; overflow: hidden; display: block; }
+.dialog-output .value { width: 490px; }
+.dialog-output .value p { border-radius: 10px; display: inline-block; }
+.dialog-output .value span { padding: 12px 19px 17px; line-height: 26px; text-align: left; display: inline-block; }
+.dialog-output ul.side .head { margin-left: 15px; }
+.dialog-output ul.side .head a { display: block; }
+.dialog-output ul.side .ico { left: 63px; background-position: -279px -63px; }
+.dialog-output ul.side .value { margin-left: 15px; }
+.dialog-output ul.side .value p { background: #F1F1F1; }
+.dialog-output ul.self { float: right; }
+.dialog-output ul.self .ico { right: 13px; background-position: -287px -63px; }
+.dialog-output ul.self .value { float: right; margin-right: 20px; }
+.dialog-output ul.self .value p { float: right; background: #E4DDE8; }
+.dialog-input { }
+.dialog-input .op-box { margin-top: 11px; }
+.dialog-input .op-box a { margin-right: 11px; width: 22px; height: 22px; overflow: hidden; display: inline-block; }
+.dialog-input .op-box a.face { background-position: -382px -841px; }
+.dialog-input .op-box a.font { background-position: -405px -841px; }
+.dialog-input .input-box { margin-top: 8px; }
+.dialog-input .input-box .textarea-wrap { float: left; width: 640px; height: 76px; border-radius: 5px; overflow: hidden; }
+.dialog-input .input-box textarea { padding: 10px; width: 620px; height: 56px; background: url(../images/bg_dialog_textarea.png) repeat-x; border: none; overflow-y: auto; }
+.dialog-input .input-box a.btn-send { float: right; width: 86px; height: 76px; background-position: -382px -864px; border-radius: 5px; box-shadow: 0 3px 3px #333; display: block; }

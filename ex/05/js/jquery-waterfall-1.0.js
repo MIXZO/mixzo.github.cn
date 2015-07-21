@@ -1,0 +1,342 @@
+
+/**
+*
+*/
+
+(function(window, $){
+	var _options = {
+		width: 200,         // 每个单元宽度
+		align: 'center',	// 水平排列方式, 默认center(居中), 目前只支持一个
+		ctlWidth: 0,		// 瀑布流空间页面占用的宽度
+		rangWidth: 0,		// 瀑布流排列后,所需要用到的宽度
+		overWidth: 0,       // 剩余下来的宽度, 实际 = ctlWidth - rangWidth
+		columns: 0,         // 排列列数
+		margin_top: 5,  	// 每单元顶部间隔高度
+		margin_bottom: 1,  // 每单元底部间隔高度
+		margin_left: 1,  	// 每单元底左侧隔宽度
+		margin_right: 1,  	// 每单元底左侧隔宽度
+		margin_center: 1,  	// 每单元底中间隔宽度
+		startTop: 0,        // 所有单元top属性的起始值(相当于所有单元的top都会加上这个值), 默认情况=0
+		startLeft: null,    // 所有单元left属性的起始值(相当于所有单元的left都会加上这个值), 默认情况=overWidth/2,保持控件居中
+		colTop: null,	    // 所有列的行高
+		colLeft: null,		// 所有列的行高
+		animate: 1,			 // 动画效果。0= 无动画效果; 1= 漂浮动画 2= 垂直漂浮
+		
+		
+		size: 0,
+		minHeight: 0,
+		maxHeight: 0,
+		onMove: null,
+		onChangeColumns: null,
+		bottomEvents: null, // 当屏幕滚动到底部时处罚时间
+		filter: null        // 过滤空间中的元素
+	}
+	
+	var Waterfall = function(options){
+		$.extend(this, options);
+		this._init();
+	}
+	
+	$.extend(Waterfall.prototype, {
+		// 控件宽度
+		setCtlWidth: function(width){
+			this.ctlWidth = width;
+		},
+		// 可排列数
+		getColumns: function(){
+			var oldColumns = this.columns;
+			this.columns = Math.floor(this.ctlWidth / this.width);
+			
+			this.rangWidth = this.width * this.columns;
+			if (this.margin_center > 0){
+				this.rangWidth += (this.columns -1) * this.margin_center;
+			}
+			// 空出来的宽度
+			var overWidth = this.ctlWidth - this.rangWidth;
+			if (overWidth < 0 ) {
+				this.columns -= 1;
+				this.rangWidth = this.width * this.columns;
+				if (this.margin_center > 0){
+					this.rangWidth += (this.columns -1) * this.margin_center;
+				}
+				overWidth = this.ctlWidth - this.rangWidth;
+			}
+			if (oldColumns != this.columns || this.overWidth != overWidth) {
+				this.overWidth = overWidth;
+				this.changeColumns(oldColumns);
+			}
+			
+			return this.columns;
+		},
+		// 排列使用到的宽度
+		getRangeWidth: function(){
+			
+			//if (this.startLeft == null) {
+			// 计算居中LEFT间隔距离
+			this.startLeft = Math.floor(this.overWidth /2);
+			//};
+			return this.rangWidth;
+		},
+		// 排列数改变触发事件
+		changeColumns: function(oldColumns){
+			// 计算控件排列单元占用的宽度
+			this.getRangeWidth();
+			var arr = new Array(), arr2 = new Array();
+			for(var i = 0; i < this.columns; i++){
+				arr[i] = this.startTop + this.margin_top;
+				arr2[i] = (this.width * i) + this.startLeft;
+				if (i > 0 && this.margin_center > 0){
+					arr2[i] += (this.margin_center * i);
+				}
+			}
+			this.colTop = arr;
+			this.colLeft = arr2;
+			this.maxHeight = 0;
+			this.minHeight = 0;
+			if (this.onChangeColumns){
+				this.onChangeColumns(oldColumns);
+			}
+			if (this.size > 0) {
+				// 重新排列
+				this.rearrange();
+			}
+		},
+		// 获取指定列的top数值
+		getColTop: function(colIndex){
+			if (typeof(this.colTop[colIndex]) == 'undefined'){
+				return this.startTop;;
+			}
+			return this.colTop[colIndex];
+		},
+		// 获取指定列的left数值
+		getColLeft: function(colIndex){
+			if (typeof(this.colLeft[colIndex]) == 'undefined'){
+				return this.width * -1;
+			}
+			return this.colLeft[colIndex];
+		},
+		// 累加高度, 将新排列好单元的高度累加起来
+		addColTop: function(colIndex, height){
+			if (typeof(this.colTop[colIndex]) != 'undefined'){
+				this.colTop[colIndex] += height + this.margin_bottom + this.margin_top;
+				this.maxHeight = 0;
+				this.minHeight = 0;
+			}
+		},
+		// 获取排列队索引数值, 这个取值标准是比对所有排列高度,取最小值的索引数
+		getColumnIndex: function(){
+			var index = 0;
+			for(var i = 1; i < this.columns; i++){
+				if (this.colTop[index] > this.colTop[i]){
+					index = i;
+				}
+			}
+			return index;
+		},
+		// 读取/计算当前排列队中高度数值最大数值
+		getMaxHeight: function(){
+			if (this.maxHeight > 0){
+				return this.maxHeight;
+			}
+			var height = 0;
+			for(var i = 0; i < this.columns; i++){
+				if (height < this.colTop[i]){
+					height = this.colTop[i];
+				}
+			}
+			this.maxHeight = height;
+			return height;
+		},
+		// 读取/计算当前排列队中高度数值最小数值
+		getMinHeight: function(){
+			if (this.minHeight > 0){
+				return this.minHeight;
+			}
+			var height = 0;
+			for(var i = 0; i < this.columns; i++){
+				if (i ==0){
+					height = this.colTop[i];
+				}
+				else if (height > this.colTop[i]){
+					height = this.colTop[i];
+				}
+			}
+			this.minHeight = height;
+			return height;
+		},
+		// 排列元素
+		arrange: function(elements){
+			if (elements && elements.length > 0){
+				var _self = this;
+				elements.each(function(){
+					var element = $(this);
+					var index = _self.getColumnIndex();
+					var left = _self.getColLeft(index);
+					var top = _self.getColTop(index);
+					element.attr('col', index).css('height', element.height() + 'px');
+					_self.addColTop(index, element.height());
+					_self.move(element, left, top, _self.animate);
+				});
+			}
+		},
+		// 重新排列
+		rearrange: function(){
+			var elements = $(this.ctl).children();
+			if (this.filter && $.isFunction(this.filter)){
+				elements = this.filter(elements);
+			}
+			if (elements.length > 0) {
+				// 排列
+				this.arrange(elements);
+			}
+		},
+		// 移动元素, 如果需要添加新的动画效果可以直接修改此函数
+		move: function(element, left, top, animate){
+			$(this.ctl).height(this.getMaxHeight());
+			
+			var position = element.position();
+			if (position.left != left || position.top != top){
+				if (this.onMove){
+					var rs = this.onMove(element, left, top, animate);
+					if (typeof(rs) != 'undefined' && !rs){
+						return;
+					}
+				}
+				if (animate == 2){
+					element.stop().animate({
+						left: (left + 'px')
+						//top: (top + 'px')
+					}, 400, function(){
+						element.animate({
+							//left: (left + 'px'),
+							top: (top + 'px')
+						}, 400);
+					});
+				}
+				else if (animate){
+					element.stop().animate({
+					left: (left + 'px'),
+					top: (top + 'px')
+					}, 800);
+				}
+				else {
+					element.css({left: left + 'px', top: top + 'px'});
+				}
+			}
+		},
+		append: function(html){
+			var elements = $(html);
+			if (this.filter && $.isFunction(this.filter)){
+				elements = this.filter(elements);
+			}
+			if (elements && elements.length > 0){
+				var width = this.width;
+				var left = this.width * -1;
+				var top = this.startTop * -1;
+				// 初始化css
+				this.size += elements.css({
+					position: 'absolute',
+					width: width,
+					left: left,
+					top: top
+				}).size();
+				// 添加到控件中
+				$(this.ctl).append(elements);
+				// 排列
+				this.arrange(elements);
+			}
+		},
+		bottomEvent: function(scope, fn){
+			if(!this.bottomEvents) {
+				this.bottomEvents = new Array();
+			}
+			this.bottomEvents.push({scope: scope, fn: fn});
+		},
+		_bottomEvent: function(){
+			if(this.bottomEvents) {
+				var _self = this;
+				for(var i = 0, len = this.bottomEvents.length; i < len; i ++){
+					var event = this.bottomEvents[i];
+					if (event.fn){
+						var fn = event.fn;
+						setTimeout(function(){
+							fn(_self);
+						}, 1);
+					}
+					if (event.scope == 'one'){
+						event.fn = null;
+					}
+				}
+				var arr = new Array();
+				for(var i = 0, len = this.bottomEvents.length; i < len; i ++){
+					var event = this.bottomEvents[i];
+					if (event.fn){
+						arr.push(event);
+					}
+				}
+				if (arr.length == 0){
+					this.bottomEvents = null;
+				}
+				else {
+					this.bottomEvents = arr;
+				}
+			}
+		},
+		_init: function(){
+			this.getColumns();
+			this._read();
+		},
+		_read: function(){
+			var elements = $(this.ctl).children();
+			if (this.filter && $.isFunction(this.filter)){
+				elements = this.filter(elements);
+			}
+			if (elements.length > 0) {
+				var width = this.width;
+				var left = this.width * -1;
+				var top = this.startTop * -1;
+				this.size = elements.css({
+				position: 'absolute',
+				width: width,
+				left: left,
+				top: top
+				}).size();
+				// 排列
+				this.arrange(elements);
+			}
+		}
+	});
+	
+	$.fn.waterfall2 = function(options){
+		if (options) {
+			options = $.extend(_options, options);
+		}else {
+			options = _options;
+		}
+		var _self = $(this);
+		options.ctl = _self;
+		options.ctlWidth = $(this).width();
+		var waterfall = new Waterfall(options);
+		// 尺寸大小改变事件
+		var waterfallResize = function(){
+		  //alert($(_self).width());
+			waterfall.setCtlWidth($(_self).width());
+			waterfall.getColumns();
+			waterfallScroll();
+		};
+		var waterfallScroll = function(){
+			// 取排列高度最小数值, 计算top点位置
+			var ctlTop = waterfall.getMinHeight() + $(_self).offset().top;
+			// 去当前滚动条滚动位置
+			var currentTop = $(document).scrollTop() + $(window).height();
+			if (currentTop >= ctlTop) {
+				waterfall._bottomEvent();
+			}
+		};
+		$(_self).resize(waterfallResize);
+        $(document).resize(waterfallResize);
+		$(window).resize(waterfallResize);
+		$(window).scroll(waterfallScroll);
+		return waterfall;
+	};
+})(window, jQuery);

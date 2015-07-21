@@ -1,0 +1,66 @@
+﻿html { color: #000; font-family: 微软雅黑, 宋体; font-size: 12px; -webkit-text-size-adjust: none; background: #fff; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+li { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ''; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input, textarea, select { outline: none; font-family: inherit; font-size: inherit; font-weight: inherit; resize: none; *font-size:100%;}
+legend { color: #000; }
+body { overflow-x: hidden; }
+a { color: #000; text-decoration: none; outline: none; }
+.clearfix:after { clear: both; content: ""; display: block; height: 0; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { }
+.clearfix { display: block; }
+
+/*class*/
+.pos-box { position: relative; }
+
+/*page*/
+.header-wrap { position: relative; height: 143px; }
+.header { position: absolute; top: 0; left: 50%; margin-left: -720px; width: 1440px; height: 143px; background: url(../images/con_header.png) repeat-x; overflow: hidden; }
+.header-input { float: right; margin: 48px 220px 0 0; width: 140px; height: 28px; background: #fff; border: solid 1px #CDCDCD; border-radius: 14px; overflow: hidden; }
+.header-input input { float: left; padding: 0 10px; width: 150px; height: 28px; line-height: 28px; border: none; overflow: hidden; }
+.header-input i { position: absolute; top: 0; right: 0; width: 31px; height: 28px; background: url(../images/ico_search.png) no-repeat; display: block; overflow: hidden; cursor: pointer; }
+
+.content { }
+.banner { position: relative; height: 701px; }
+.banner li { position: absolute; top: 0; left: 0; width: 100%; height: 701px; overflow: hidden; }
+
+.new-wrap { position: relative; height: 679px; }
+.new { position: absolute; top: 0; left: 50%; margin-left: -720px; overflow: hidden; }
+.new-list-wrap { margin: 0 auto; padding-top: 80px; width: 1440px; background: url(../images/bg_new_repeat.png) no-repeat center top; overflow: hidden; }
+.new-list { width: 99999px; overflow: hidden; }
+.new-list li { float: left; width: 720px; height: 600px; overflow: hidden; }
+.new-list img { position: absolute; top: 0; left: 0; display: block; }
+.new-list img.hover { top: 663px; }
+
+.hot-wrap { position: relative; height: 720px; }
+.hot-wrap .op-box { position: absolute; top: 50px; right: 220px; z-index: 999; width: 32px; height: 13px; }
+.hot-wrap .op-box a { width: 7px; height: 13px; display: block; }
+.hot-wrap .op-box a.prev { float: left; background: url(../images/ico_prev.png) no-repeat; }
+.hot-wrap .op-box a.next { float: right; background: url(../images/ico_next.png) no-repeat; }
+.hot { position: absolute; top: 0; left: 50%; margin-left: -720px; overflow: hidden; }
+.hot-list-wrap { position: relative; margin: 0 auto; padding-top: 80px; width: 1440px; background: url(../images/bg_hot.png) repeat-x center top; overflow: hidden; }
+.hot-list { width: 99999px; }
+.hot-list li { float: left; }
+.hot-list li img { display: block; }
+
+.news-wrap { position: relative; height: 507px; }
+.news-wrap .op-box { position: absolute; top: 82px; right: 0; z-index: 999; width: 32px; height: 13px; }
+.news-wrap .op-box a { width: 7px; height: 13px; display: block; }
+.news-wrap .op-box a.prev { float: left; background: url(../images/ico_prev.png) no-repeat; }
+.news-wrap .op-box a.next { float: right; background: url(../images/ico_next.png) no-repeat; }
+.news { position: absolute; top: 0; left: 50%; margin-left: -720px; width: 1440px; height: 507px; background: url(../images/bg_news.png) repeat-x center top; overflow: hidden; }
+.news-list-wrap { position: relative; margin-left: 826px; padding-top: 111px; width: 367px; height: 312px; overflow: hidden; }
+.news-list { width: 99999px; }
+.news-list li { float: left; margin-right: 23px; }
+
+.footer-wrap { position: relative; height: 214px; }
+.footer { position: absolute; top: 0; left: 50%; margin-left: -720px; width: 1440px; height: 214px; background: url(../images/con_footer.png) repeat-x; overflow: hidden; }

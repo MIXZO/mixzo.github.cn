@@ -1,0 +1,77 @@
+﻿.banner { width: 100%; height: 596px; overflow: hidden; }
+.banner-center { position: absolute; top: 0; left: 50%; margin-left: -2500px; width: 5000px; }
+.tab-banner-content { position: relative; }
+.tab-banner-content li { position: absolute; top: 0; left: 0; width: 100%; text-align: center; display: none; }
+.tab-banner-content a { }
+.tab-banner-content img { vertical-align: top; }
+.tab-banner-title, .tab-banner-title i { width: 100%; height: 10px; font-size: 0; overflow: hidden; }
+.tab-banner-title { position: absolute; bottom: 16px; left: 0; margin-left: -10px; text-align: center; }
+.tab-banner-title i { margin-left: 10px; width: 10px; background-image: url(../images/ico_p.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_p.png'); _background-image: none; display: inline-block; cursor: pointer; }
+.tab-banner-title i.current { background-image: url(../images/ico_p_cur.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_p_cur.png'); _background-image: none; }
+.banner .btn-prev, .banner .btn-next { position: absolute; top: 290px; width: 20px; height: 39px; overflow: hidden; cursor: pointer; }
+.banner .btn-prev { left: 12px; background-image: url(../images/ico_prev.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_prev.png'); _background-image: none; }
+.banner .btn-prev.hover { background-image: url(../images/ico_prev_hover.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_prev_hover.png'); _background-image: none; }
+.banner .btn-next { right: 12px; background-image: url(../images/ico_next.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_next.png'); _background-image: none; }
+.banner .btn-next.hover { background-image: url(../images/ico_next_hover.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_next_hover.png'); _background-image: none; }
+
+.index-con { margin-top: 30px; width: 100%; background: url(../images/line_gray.png) repeat-x left 30px; overflow: hidden; }
+.index-con section { margin: 0 auto; width: 312px; background: #fff; }
+.index-con section p { text-align: center; }
+.index-con section p.en { color: #999; font-family: Arial; font-size: 26px; }
+.index-con section p.en span { color: #472b59; }
+.index-con section p.cn { font-size: 16px; }
+.index-con .xptj-box { margin-top: 18px; overflow: hidden; }
+.index-con .xptj-box ul { width: 1100px; }
+.index-con .xptj-box li { float: left; margin-right: 32px; width: 312px; height: 312px; overflow: hidden; }
+.index-con .xptj-box li img { display: block; }
+.index-con .xptj-box li i { position: absolute; top: 0; left: 0; width: 288px; height: 288px; border: solid 12px #fff; filter: alpha(opacity=50); opacity: 0.5; overflow: hidden; display: block; }
+.index-con .xptj-box li.hover i { margin: 8px 0 0 8px; border-width: 6px; width: 284px; height: 284px; }
+.index-con .xptj-box li .con, .index-con .xptj-box li .frame-link { position: absolute; top: 0; left: 0; width: 312px; height: 312px; text-align: center; color: #fff; overflow: hidden; display: none; }
+.index-con .xptj-box li.hover .con, .index-con .xptj-box li.hover .frame-link { display: block; }
+.index-con .xptj-box li .con .name { margin-top: 90px; line-height: 28px; font-size: 24px; }
+.index-con .xptj-box li .con .type { margin-top: 10px; }
+.index-con .xptj-box li .con .type span { padding-top: 6px; font-size: 18px; border-top: solid 5px #fff; display: inline-block; }
+.index-con .xptj-box li .con .ico { margin-top: 15px; }
+.index-con .xptj-box li .con .ico span { width: 40px; height: 40px; background-image: url(../images/ico_jt_new.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_jt_new.png'); _background-image: none; display: inline-block; }
+.index-con .xptj-box li .frame-link { background: #000; filter: alpha(opacity=20); opacity: 0.2; }
+
+.rmsp-box { margin-top: 18px; width: 100%; overflow: hidden; }
+.rmsp-box a.op-btn { position: absolute; top: 200px; width: 20px; z-index: 9; height: 39px; display: block; }
+.rmsp-box a.prev { left: 12px; background-image: url(../images/ico_prev2.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_prev2.png'); _background-image: none; }
+.rmsp-box .prev.hover { background-image: url(../images/ico_prev2_hover.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_prev2_hover.png'); _background-image: none; }
+.rmsp-box a.next { right: 12px; background-image: url(../images/ico_next2.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_next2.png'); _background-image: none; }
+.rmsp-box .next.hover { background-image: url(../images/ico_next2_hover.png) !important; background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale, src='images/ico_next2_hover.png'); _background-image: none; }
+.hot-wrap { position: relative; width: 100%; height: 452px; overflow: hidden; }
+.hot { position: absolute; top: 0; left: 50%; margin-left: -1000px; width: 2000px; overflow: hidden; }
+.hot .tab-content-wrap { margin: 0 auto; width: 2000px; overflow: hidden; }
+.hot .tab-content { position: relative; width: 100%; height: 452px; }
+.hot .tab-content li { position: absolute; top: 0; left: 0; width: 100%; height: 452px; }
+.hot .tab-content .inner-box { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.hot .tab-content .item { position: absolute; top: 0; left: 2000px; width: 2000px; height: 452px; display: block; }
+.hot .tab-content a.item { z-index: 9; width: 320px; }
+
+.index-contentbox { margin-top: 50px; overflow: hidden; }
+.index-contentbox ul { width: 1100px; overflow: hidden; }
+.index-contentbox li { float: left; margin-right: 32px; width: 312px; overflow: hidden; }
+.index-contentbox section { }
+.index-contentbox section h3 { font-size: 16px; }
+.index-contentbox section .line { margin-top: 10px; width: 100%; height: 4px; font-size: 0; background: #EBEBEB; overflow: hidden; }
+.index-contentbox section .line span { float: left; width: 105px; height: 4px; font-size: 0; background: #472B59; }
+.index-contentbox .video-box { margin-top: 22px; width: 312px; height: 166px; overflow: hidden; }
+.index-contentbox .video-box a { background: #EBEBEB; display: block; }
+.index-contentbox .video-box img { width: 312px; height: 166px; display: block; }
+.index-contentbox .zxhd-box, .index-contentbox .xwgg-box { margin-top: 22px; height: 190px; overflow: hidden; }
+.index-contentbox .zxhd-box dl, .index-contentbox .xwgg-box dl { width: 100%; height: 62px; margin-bottom: 30px; overflow: hidden; }
+.index-contentbox .zxhd-box dd, .index-contentbox .xwgg-box dd { float: left; }
+.index-contentbox .zxhd-box dd.ico { margin: 9px 17px 0 4px; width: 4px; height: 4px; font-size: 0; background: url(../images/line_gray.png) repeat; overflow: hidden; display: inline; }
+.index-contentbox .zxhd-box dd.inf { width: 285px; }
+.index-contentbox .zxhd-box dd.inf a:hover, .index-contentbox .xwgg-box dd.inf a:hover { text-decoration: underline; }
+.index-contentbox .zxhd-box dd.inf .txt, .index-contentbox .xwgg-box dd.inf .txt { font-size: 14px; overflow: hidden; }
+.index-contentbox .zxhd-box dd.inf .time, .index-contentbox .zxhd-box dd.inf .con a, .index-contentbox .xwgg-box dd.inf .time, .index-contentbox .xwgg-box dd.inf .con a { color: #666; }
+.index-contentbox .zxhd-box dd.inf .time, .index-contentbox .xwgg-box dd.inf .time { margin-top: 4px; }
+.index-contentbox .zxhd-box dd.inf .con, .index-contentbox .xwgg-box dd.inf .con { margin-top: 8px; height: 14px; overflow: hidden; }
+.index-contentbox .xwgg-box { }
+.index-contentbox .xwgg-box dl { margin-bottom: 18px; height: 74px; }
+.index-contentbox .xwgg-box dd.img { margin-right: 23px; }
+.index-contentbox .xwgg-box dd.img img { width: 74px; height: 74px; display: block; }
+.index-contentbox .xwgg-box dd.inf { width: 215px; }

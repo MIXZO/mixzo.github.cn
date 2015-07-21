@@ -1,0 +1,1530 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"btn-",
+				"btn-next"
+			],
+			[
+				"objtime",
+				"objTimelineItem"
+			],
+			[
+				"objti",
+				"objTimelineItem"
+			],
+			[
+				"time",
+				"timelineFun"
+			],
+			[
+				"cur",
+				"current"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"outer",
+				"outerWidth	.outerWidth"
+			],
+			[
+				"out",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"conten",
+				"contentWidth  (argument)"
+			],
+			[
+				"content",
+				"contentWidth"
+			],
+			[
+				"co",
+				"collocation_3"
+			],
+			[
+				"movewid",
+				"moveWidth"
+			],
+			[
+				"remove",
+				"remove	.remove()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"kbx",
+				"kboxingPage"
+			],
+			[
+				"mous",
+				"mouseenter	mouseenter"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"h",
+				"horizontalScrollMove  (function)"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"conte",
+				"contentWidth"
+			],
+			[
+				"obj",
+				"obj"
+			],
+			[
+				"con",
+				"contentMainWidth"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"step",
+				"step-1"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"radio",
+				"radioHtml"
+			],
+			[
+				"objlis",
+				"objList"
+			],
+			[
+				"objlist",
+				"objListLi"
+			],
+			[
+				"kb",
+				"kboxingPageFun"
+			],
+			[
+				"il",
+				"inline-block"
+			],
+			[
+				"kbox",
+				"kboxingPage"
+			],
+			[
+				"form",
+				"form-textarea"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"repeat",
+				"repeat-y  (value)"
+			],
+			[
+				"page",
+				"page-width"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"border-botto",
+				"border-bottom-color"
+			],
+			[
+				"border-bott",
+				"border-bottom-width"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"inne",
+				"inner-box"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"grid",
+				"gridProduct_4"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"find",
+				"find	.find()"
+			],
+			[
+				"parent",
+				"parents	.parents()"
+			],
+			[
+				"cart",
+				"cartBtnFun"
+			],
+			[
+				"rem",
+				"remove	.remove()"
+			],
+			[
+				"ko",
+				"kboxingPage"
+			],
+			[
+				"parnt",
+				"parents	.parents()"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"inner",
+				"inner-box"
+			],
+			[
+				"scr",
+				"scroll	.scroll()"
+			],
+			[
+				"rela",
+				"relative-box"
+			],
+			[
+				"comment",
+				"commentPageSize"
+			],
+			[
+				"objcon",
+				"objConLi"
+			],
+			[
+				"objc",
+				"objConLi"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"objco",
+				"objCon"
+			],
+			[
+				"loa",
+				"loadColor"
+			],
+			[
+				"kbo",
+				"kboxingPageFun"
+			],
+			[
+				"offs",
+				"offsetWidth"
+			],
+			[
+				"col",
+				"colNum"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"_",
+				"_widthWidth"
+			],
+			[
+				"_w",
+				"_widthWidth"
+			],
+			[
+				"cle",
+				"clearInterval"
+			],
+			[
+				"objtit",
+				"objTitA"
+			],
+			[
+				"index",
+				"index	index"
+			],
+			[
+				"prev",
+				"prevFun"
+			],
+			[
+				"next",
+				"nextFun"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"offset",
+				"offsetFix"
+			],
+			[
+				"offse",
+				"offsetFix"
+			],
+			[
+				"cell",
+				"cell-link"
+			],
+			[
+				"cel",
+				"cell"
+			],
+			[
+				"rel",
+				"relative-box"
+			],
+			[
+				"conta",
+				"containerName"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"row",
+				"rowHeight"
+			],
+			[
+				"scree",
+				"screenHeight"
+			],
+			[
+				"sc",
+				"screenWidth"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"clea",
+				"clearTimeout"
+			],
+			[
+				"scro",
+				"scrollValue"
+			],
+			[
+				"scroll",
+				"scrollValue"
+			],
+			[
+				"clear",
+				"clearTimeout"
+			],
+			[
+				"x",
+				"x_m_d"
+			],
+			[
+				"scrol",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"banner",
+				"banner-box"
+			],
+			[
+				"bann",
+				"banner-box"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"animate",
+				"animate	animate"
+			],
+			[
+				"list",
+				"list-wrap"
+			],
+			[
+				"hei",
+				"heightFix"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"anima",
+				"animate	animate"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"lkkue",
+				"lkkuedFun"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"relative-box"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"ab",
+				"absolute-box"
+			],
+			[
+				"ob",
+				"objHover"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"ani",
+				"animate	animate"
+			],
+			[
+				"java",
+				"javascript"
+			],
+			[
+				"lkk",
+				"lkkuedFun"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"img",
+				"images"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 63879,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/common.css",
+			"settings":
+			{
+				"buffer_size": 12139,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ip",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/forget_password.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/forget_email.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/forget.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/search_result.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/product.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_favorites.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/index.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/cart.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/style_detail.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/product_detail.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/product_type.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/js/common.js",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/js/page.js",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/reservation.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_coupon.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/city.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/register.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/webUI.sublime-workspace",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_information.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_address.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/order_information.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/story.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide_level.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide_points.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide_process.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide_qa.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide_service.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/guide_tips.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_account.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/wardrobe_collocation.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/contact.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/wardrobe.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/rrs.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/about.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/statement.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/css/index.css",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/redeem.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/order_finish.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/wardrobe_match.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/js/mshowBox.js",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/style.htm",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/BracketHighlighter/Main.sublime-menu",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/JsFormat/Main.sublime-menu",
+		"/D/Users/MIXZO/Desktop/head.html.php",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_comment.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_integral.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_logistics.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/my_return.htm",
+		"/D/Users/MIXZO/Desktop/lkk/foot.html.php",
+		"/D/WORK/WORKSPACE/PROJECT/20140210_劲霸男装/webUI/account_my.htm",
+		"/D/Users/MIXZO/Desktop/lkkued_bak/common.css",
+		"/D/Users/MIXZO/Desktop/lkkued_bak/style.css",
+		"/D/Users/MIXZO/Desktop/HP.txt.lnk",
+		"/D/WORK/EFFECT/HTML/JQuery/浮动固定层/JQuery 浮动导航栏.html",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/JSHint/Main.sublime-menu",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/banner.js",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/index.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/css/index.css",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/css/common.css",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/common.js",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/svn/assets/js/front/banner.js",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/contact.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/about.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/service.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/client.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/case_detail.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/case.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/page.js",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/css/style.css",
+		"/D/Users/MIXZO/Desktop/ziyuanGO_Proto_140113/index.html",
+		"/D/WORK/WORKSPACE/PROJECT/20130607_LASCANA/webUI/js/mshowBox.js",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/User/Preferences.sublime-settings",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/jquery.lazyload.min.js",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/jquery.mobile-1.1.2.min.js",
+		"/D/WORK/WORKSPACE/PROJECT/20130206_AD_SNS/webUI/js/mshowBox.js",
+		"/D/Users/MIXZO/Desktop/123.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/jquery.centerImage.js",
+		"/D/WORK/WORKSPACE/PROJECT/20130607_LASCANA/webUI/js/common.js",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/css/jquery.mobile-1.1.2.css",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/css/jquery.mobile-1.1.2.min.css",
+		"/D/WORK/WORKSPACE/PROJECT/20131225_LKKUED2/webUI/js/jquery.fullscreenBackground.js",
+		"/E/MIXZO/Desktop/ZO/特效文件夹/桌面/css3_test/js/css3_demo.js",
+		"/E/MIXZO/Desktop/ZO/特效文件夹/桌面/css3_test/css3_demo.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20130607_LASCANA/webUI/css/common.css",
+		"/D/PROGRAMS/工具/开发工具/Sublime Text/Sublime Text 2 Build 2220/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/WORK/WORKSPACE/PROJECT/Test/mobile.html",
+		"/D/WORK/WORKSPACE/PROJECT/Test/Test.html",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/index.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_10.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_09.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_08.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_07.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_06.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_05.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_04.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_03.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_02.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products_detail_01.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/products.htm",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/collections.htm",
+		"/C/Users/MIXZO/Desktop/Test (1).lnk",
+		"/D/WORK/WORKSPACE/PROJECT/20131111_KUMAR/webUI/js/common.js",
+		"/E/Backup/20130905/Desktop/EFFECT/jQuery瀑布流插件_v1.02.html",
+		"/C/Users/MIXZO/Desktop/Test.html",
+		"/C/Users/MIXZO/Desktop/基于canvas的图片转字符画工具.html",
+		"/C/Users/MIXZO/Desktop/Demo_MLK.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"favorites",
+			"去结算",
+			"积分",
+			"del",
+			"<ul class=\"list-qa\">",
+			"javascript:;",
+			"<br><br>",
+			"tab-index-1",
+			"tab-tit-wrap",
+			"tab",
+			"product-show-more",
+			"<p class=\"name\"><a href=\"product_detail.htm\">时尚印花纯棉短袖衬衫</a></p>",
+			".show-txt-bg",
+			"show-txt-bg",
+			"系类",
+			"jiathis_button_tsina",
+			"grid-container",
+			"show-txt-bg",
+			".list-form-relative .radio-box",
+			"dd",
+			"<input class=\"user\"",
+			" class=\"user\" ",
+			"ts-inf",
+			"value=",
+			"grade",
+			"textarea",
+			"textarea-box",
+			"textarea",
+			"success",
+			"minus",
+			"lazyload",
+			"list-form",
+			".on(",
+			"on(",
+			"live",
+			"total",
+			"inner",
+			"wrap",
+			"vis",
+			"</div>      ",
+			"<span class=\"total\">10</span>",
+			"</div>                ",
+			"                                                ",
+			"; ",
+			"();\n",
+			"$(obj).find('input')",
+			"live",
+			"\"",
+			"时尚都市",
+			"clearInterval",
+			"<a href=\"case_detail.htm\">",
+			"font-weight",
+			"top",
+			"off",
+			"on",
+			"pos-box",
+			".pos-box",
+			"<img class=\"lazyload\"",
+			", \"linear\"",
+			"src=\"images/null.gif\" ",
+			"auto_complete",
+			"}\n",
+			" alt=\"\">",
+			"footer",
+			"<i></i><span>service@kumar.com</span>",
+			"最新活动",
+			"format"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"兑换券",
+			"<ul class=\"list-qa clearfix\">",
+			"<br>",
+			"tab-grid",
+			"<p class=\"name\"><a href=\"javascript:;\">时尚印花纯棉短袖衬衫</a></p>",
+			"系列",
+			"<input",
+			" ",
+			"ts-type",
+			"score=",
+			"score",
+			"form-textarea",
+			".live(",
+			"on",
+			"</div>",
+			"<span class=\"total\">0</span>",
+			"</div>",
+			"",
+			"$(this).siblings('input')",
+			"'",
+			"<a href=\"javascript:;\">",
+			"relative-box",
+			".relative-box",
+			"<img class=\"lazyload\" src=\"images/null.gif\"",
+			", \"swing\"",
+			"",
+			" alt=\"\" />",
+			"<i></i><span>Service@kumarshahhazzard.co.uk</span>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 63879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43784,
+								43784
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"class_or_id": "M",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9435.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/common.css",
+					"settings":
+					{
+						"buffer_size": 12139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5076,
+								5076
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"class_or_id": "M",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 815.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"f",
+				"forget.htm"
+			],
+			[
+				"index",
+				"index.htm"
+			],
+			[
+				"sea",
+				"search_result.htm"
+			],
+			[
+				"myf",
+				"my_favorites.htm"
+			],
+			[
+				"style",
+				"style_detail.htm"
+			],
+			[
+				"pro",
+				"product_type.htm"
+			],
+			[
+				"re",
+				"reservation.htm"
+			],
+			[
+				"res",
+				"reservation.htm"
+			],
+			[
+				"city",
+				"city.htm"
+			],
+			[
+				"rege",
+				"register.htm"
+			],
+			[
+				"inde",
+				"index.htm"
+			],
+			[
+				"w",
+				"wardrobe_collocation.htm"
+			],
+			[
+				"ward",
+				"wardrobe.htm"
+			],
+			[
+				"abou",
+				"about.htm"
+			],
+			[
+				"ci",
+				"city.htm"
+			],
+			[
+				"red",
+				"redeem.htm"
+			],
+			[
+				"banner.",
+				"js/banner.js"
+			],
+			[
+				"la",
+				"js/jquery.lazyload.min.js"
+			],
+			[
+				"ind",
+				"css/index.css"
+			],
+			[
+				"comm",
+				"js/common.js"
+			],
+			[
+				"banne",
+				"js/banner.js"
+			],
+			[
+				"mo",
+				"mobile.html"
+			],
+			[
+				"show.js",
+				"js/mshowBox.js"
+			],
+			[
+				"cate",
+				"category.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

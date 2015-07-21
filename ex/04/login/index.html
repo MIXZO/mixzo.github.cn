@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ADzero</title>
+    <link href="../css/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="header">
+        <div class="header-top clearfix">
+            <h1>
+                <a class="logo" href="/">ADzero</a>
+            </h1>
+            <!--NAV-->
+            <ul class="header-nav clearfix">
+                <li><a href="/ADzero/">ADzero</a></li>
+                <li><a href="/ADAOS/">ADAOS</a></li>
+                <li><a href="/accessories/">ACCESSORIES</a></li>
+            </ul>
+            <!--TAB-->
+            <div class="header-tab">
+                <div class="tab-title-wrap">
+                    <ul class="tab-title clearfix">
+                        <li><a href="/login/order.html">Account</a></li>
+                        <li><a href="/cart/">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="tab-content-wrap">
+                    <ul class="tab-content">
+                        <li>
+                            <dl class="list-account clearfix">
+                                <dd>
+                                    <a href="/login/order.html">Orders</a>
+                                </dd>
+                                <dd>
+                                    <a href="/login/profile.html">myADAOS</a>
+                                </dd>
+                                <dd>
+                                    <a href="/login/password.html">Reset Password</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <!--无商品-->
+                            <div class="item-n">
+                                <p class="txt-ts">
+                                    There are no items in your Cart.
+                                </p>
+                                <!--<div class="txt-view">
+                                    <a href="/cart/">View Cart</a>
+                                </div>
+                                <div class="link-box clearfix">
+                                    <a href="javascript:;">Saved items</a><a href="javascript:;">Saved Carts</a>
+                                </div>-->
+                            </div>
+                            <!--有商品-->
+                            <div class="item-y">
+                                <h4 class="cart-title">
+                                    Your Cart
+                                </h4>
+                                <dl class="list-products clearfix">
+                                    <dd>
+                                        <a href="javascript:;">
+                                            <img src="/images/img/img_header_products.png" alt="" /><span class="name">AD Mobile</span></a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">
+                                            <img src="/images/img/img_header_products.png" alt="" /><span class="name">AD Mobile</span></a>
+                                    </dd>
+                                </dl>
+                                <div class="txt-view">
+                                    <a href="javascript:;">View Cart</a>
+                                </div>
+                                <div class="checkout-box">
+                                    <a class="btn-checkout" href="javascript:;">Check Out Now</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--LINE-->
+            <p class="line-bottom">
+            </p>
+            <p class="line-nav">
+            </p>
+        </div>
+    </div>
+    <div class="login-box">
+        <form class="login-form" name="login" method="post" action="#">
+			<input type="hidden" id="redirect" name="redirect" value="" />
+            <h3>
+                Hello,Please Sign In
+            </h3>
+            <div class="form-main">
+                <div class="inner-box">
+                    <h4>
+                        Returning Customer
+                    </h4>
+                    <!--连续3次登录错误后添加class:form-verc-->
+                    <div class="form-input form-verc clearfix">
+                        <div class="input-box clearfix">
+                            <div class="pos-box username-box">
+                                <i class="ico-username"></i>
+                                <p>
+                                    User name
+                                </p>
+                                <input id="username" type="text" value="" autocomplete="off" maxLength="32"/>
+                            </div>
+                            <div class="pos-box password-box">
+                                <i class="ico-password"></i>
+                                <p>
+                                    Password
+                                </p>
+                                <input id="password" type="password" value="" autocomplete="off" maxLength="16"/>
+                            </div>
+                            <div class="pos-box verc-box">
+                                <p>
+                                    Verification Code
+                                </p>
+                                <input id="Text1" type="text" name="code" value="" autocomplete="off" maxLength="6"/>
+                                <a class="verc" href="#" onclick="return (function(t){captcha(t); return false;})(this);">
+                                    <img src="http://192.168.1.39/ad/shop/captcha.php?_=1352796704" /></a>
+                            </div>
+                        </div>
+                        <!--btn-->
+                        <div class="op-box">
+                            <a class="btn-sign" href="javascript:;">Sign In</a>
+                        </div>
+                    </div>
+                    <!--错误提示-->
+                    <div class="error-box">
+                        <div class="inf-error">
+                            Incorrect email or password.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-bottom">
+                <a href="forget.html">Forgot your AD ID or Password?</a>
+            </div>
+        </form>
+    </div>
+    <div id="wrap">
+        <div id="footer" class="clearfix">
+            <i></i>
+            <div class="copyright">
+                <p>
+                    <a href="/about/">About us</a><span>|</span><a href="/ADzero/">Support</a><span>|</span><a href="/distributor/">Distributor</a><span>|</span><a href="/repair/">Repair points</a><span>|</span><a href="javascript:;">Choose language</a>
+                </p>
+                <p>
+                    © 2012 AD. All rights reserved
+                </p>
+            </div>
+            <ul class="share">
+                <li><a class="google" href="javascript:;"></a></li>
+                <li><a class="facebook" href="javascript:;"></a></li>
+                <li><a class="twitter" href="javascript:;"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="/js/jquery-1.4.4.min.js" type="text/javascript"></script>
+
+    <script src="/js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+function captcha(target){
+	target.innerHTML = '<img src="http://192.168.1.39/ad/shop/captcha.php?_=' + (new Date().getTime()) + '" />';
+}
+// messages
+var incorrect_user_name_or_password = 'Incorrect user name or password.';
+var please_enter_username = 'Please enter the user name.';
+var please_enter_password = 'Please enter the password.';
+var please_enter_verification_code = 'Please enter the verification code.';
+var incorrect_verification_code = 'Incorrect verification code.';
+var account_does_not_exist = 'Account does not exist.';
+var access_failure = 'Access failure';
+(function($){
+	$(document).ready(function(){
+		document.forms['login'].reset();
+	});
+})(jQuery);
+</script>
+</body>
+</html>

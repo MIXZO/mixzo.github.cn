@@ -1,0 +1,205 @@
+﻿/*format*/
+#content.userpage { padding-top: 0; }
+/*img*/
+.pzi-box .photo-box .count i, .settings-box .head-box i, .settings-box .head-box i, #user .share-box a, #user .link-box, #user .show-inf .inf .txt i, #user .show-inf .close, .pagesize-box a { background: url(../images/img_bg.png) no-repeat; }
+/*png*/
+.pzi-box .photo-box .share-box a { background: url(../images/img_png.png) no-repeat; }
+/*class*/
+/*photo zoom in*/
+.pzi-box { margin: 0 auto; padding-top: 34px; width: 800px; }
+.pzi-box .photo-box { }
+.pzi-box .author-box { }
+.pzi-box .author-box .head { float: left; width: 50px; height: 50px; border-radius: 50px; overflow: hidden; }
+.pzi-box .author-box .head img { width: 50px; height: 50px; display: block; }
+.pzi-box .author-box .txt { float: left; margin-left: 21px; }
+.pzi-box .author-box .txt .name { line-height: 28px; color: #fff; font-size: 14px; font-weight: bold; }
+.pzi-box .author-box .txt .time { margin-top: 5px; line-height: 12px; color: #787b7d; }
+.pzi-box .img-box { padding-top: 21px; }
+.pzi-box .img-box img { margin: 0 auto; display: block; }
+.pzi-box .photo-box .op-box { padding: 15px 0 19px; border-bottom: solid 2px #484D4F; }
+.pzi-box .photo-box .name-box { line-height: 28px; font-size: 28px; }
+.pzi-box .photo-box .count { float: left; margin-top: 38px; display: block; }
+.pzi-box .photo-box .count a, .pzi-box .photo-box .count i, .pzi-box .photo-box .count span { float: left; display: inline-block; }
+.pzi-box .photo-box .count a { display: block; cursor: pointer; }
+.pzi-box .photo-box .count i { width: 27px; height: 29px; }
+.pzi-box .photo-box .count i.i-1 { background-position: -44px -29px; }
+.pzi-box .photo-box .count i.i-2 { background-position: -44px -59px; }
+.pzi-box .photo-box .count i.i-3 { background-position: -44px -89px; }
+.pzi-box .photo-box .count a.hover i.i-1 { background-position: -72px -29px; }
+.pzi-box .photo-box .count a.hover i.i-2 { background-position: -72px -59px; }
+.pzi-box .photo-box .count a.hover i.i-3 { background-position: -72px -89px; }
+.pzi-box .photo-box .count span { padding: 9px 20px 0 6px; line-height: 16px; color: #f74f4f; font-size: 16px; font-weight: bold; }
+.pzi-box .photo-box .share-box { float: right; margin-top: 44px; }
+.pzi-box .photo-box .share-box a { float: left; margin-left: 8px; width: 21px; height: 21px; overflow: hidden; display: block; cursor: pointer; }
+.pzi-box .photo-box .share-box a.weibo { background-position: 0 -30px; }
+.pzi-box .photo-box .share-box a.qq { background-position: -22px -30px; }
+.pzi-box .photo-box .share-box a.souhu { background-position: -44px -30px; }
+.pzi-box .photo-box .share-box a.renren { background-position: -66px -30px; }
+.pzi-box .photo-box .share-box a.email { background-position: -88px -30px; }
+.pzi-box .photo-box .share-box a.weibo.hover { background-position: 0 -52px; }
+.pzi-box .photo-box .share-box a.qq.hover { background-position: -22px -52px; }
+.pzi-box .photo-box .share-box a.souhu.hover { background-position: -44px -52px; }
+.pzi-box .photo-box .share-box a.renren.hover { background-position: -66px -52px; }
+.pzi-box .photo-box .share-box a.email.hover { background-position: -88px -52px; }
+
+.pzi-box .message-box { padding: 34px 0 100px; }
+.pzi-box .message-main { }
+.pzi-box .message-main .head { float: left; width: 50px; height: 50px; border-radius: 50px; overflow: hidden; }
+.pzi-box .message-main .head img { width: 50px; height: 50px; }
+.pzi-box .message-main .txt { float: right; }
+.pzi-box .message-main .txt textarea { padding: 10px; width: 710px; height: 68px; line-height: 20px; color: #787b7d; background: #292F31; border: none; overflow-y: auto; }
+.pzi-box .message-main .op-box { padding: 14px 0 18px; width: 100%; border-bottom: solid 2px #484D4F; overflow: hidden; }
+.pzi-box .message-main .op-box .ts { float: left; padding: 5px 0 0 70px; color: #787b7d; }
+.pzi-box .message-main .op-box .ts span { width: 32px; text-align: center; font-family: Constantia,Georgia; font-size: 22px; display: inline-block; }
+.pzi-box .message-main .op-box .ts.error span { color: #F74F4F; }
+.pzi-box .message-main .op-box .btn-pc { float: right; width: 127px; }
+.pzi-box .list-message { }
+.pzi-box .list-message li { float: left; margin-top: 30px; width: 100%; overflow: hidden; }
+.pzi-box .list-message .con { float: left; padding-left: 20px; width: 700px; }
+.pzi-box .list-message .inf { line-height: 28px; }
+.pzi-box .list-message .inf .name { font-size: 16px; font-weight: bold; }
+.pzi-box .list-message .inf .time { padding-left: 15px; color: #52585a; }
+.pzi-box .list-message .message { line-height: 20px; color: #787b7d; }
+
+.pagesize-box { overflow: hidden; }
+.pagesize-box a { width: 70px; height: 37px; display: block; }
+.pagesize-box a.prev { float: left; background-position: -211px -9px; }
+.pagesize-box a.next { float: right; background-position: -211px -47px; }
+.pagesize-box a.prev:hover { background-position: -211px -85px; }
+.pagesize-box a.next:hover { background-position: -211px -123px; }
+
+/*activity*/
+.activity-box { padding: 34px 0 80px; }
+.activity-box .ts-box { padding-bottom: 17px; line-height: 18px; font-size: 18px; font-weight: bold; border-bottom: solid 1px #484D4F; }
+.activity-box .list-activity { }
+.activity-box .list-activity li { float: left; margin-top: 35px; width: 100%; overflow: hidden; zoom: 1; }
+.activity-box .list-activity .img-box { float: left; width: 509px; }
+.activity-box .list-activity .img-box h3 { line-height: 18px; font-size: 18px; }
+.activity-box .list-activity .img-box .img { padding-top: 27px; width: 509px; height: 375px; overflow: hidden; }
+.activity-box .list-activity .img-box img { }
+.activity-box .list-activity .img-box .line { margin-top: 18px; height: 0; font-size: 0; border-top: solid 1px #484D4F; overflow: hidden; }
+.activity-box .list-activity .view-box { float: right; padding-top: 45px; width: 430px; }
+.activity-box .list-activity .comment-box { }
+.activity-box .list-activity .btn-comment { width: 93px; }
+.activity-box .list-activity .more { margin-top: 35px; }
+.activity-box .list-activity .more a { color: #f74f4f; }
+.activity-box .list-activity .more span { padding-left: 22px; color: #52585a; }
+.activity-box .list-activity .message-box { }
+.activity-box .list-activity .message-box .head { float: left; width: 42px; height: 42px; border-radius: 42px; overflow: hidden; }
+.activity-box .list-activity .message-box .txt { float: right; width: 375px; overflow: hidden; }
+.activity-box .list-activity .message-box textarea { padding: 10px; width: 355px; height: 80px; line-height: 20px; color: #787b7d; background: #292F31; border: none; overflow-y: auto; }
+.activity-box .list-activity .message-box .head img { width: 42px; height: 42px; display: block; }
+.activity-box .list-activity .message-box .op-box { padding: 16px 0; border-bottom: solid 1px #484D4F; }
+.activity-box .list-activity .message-box .op-box .btn-comment { float: right; width: 127px; }
+
+.list-user { }
+.list-user dd { float: left; margin-top: 33px; width: 100%; overflow: hidden; zoom: 1; }
+.list-user .head { float: left; width: 42px; height: 42px; border-radius: 42px; overflow: hidden; }
+.list-user .head img { width: 42px; height: 42px; display: block; }
+.list-user .con { float: right; width: 363px; }
+.list-user .inf { }
+.list-user .name { margin-top: 3px; line-height: 16px; font-size: 16px; font-weight: bold; display: inline-block; }
+.list-user .time { padding-left: 15px; color: #52585a; font-family: Arial; }
+.list-user .message { margin-top: 5px; line-height: 18px; color: #787b7d; font-family: Arial; }
+
+/*about*/
+.about-box { padding: 35px 0; }
+.about-box h2 { line-height: 24px; font-size: 24px; font-weight: bold; }
+.about-box .txt-box { padding-top: 35px; line-height: 24px; color: #787b7d; }
+
+/*login*/
+.login-box { padding: 70px 0; }
+.login-box h2 { line-height: 18px; text-align: center; font-size: 18px; font-weight: bold; }
+.login-box .login-form { margin: 0 auto; padding-top: 10px; width: 284px; *margin-top:10px;}
+
+.login-box .list-form-pos, .login-box .list-form-sta, .login-box .code-verc, .login-box .op-box, .login-box .signup-enter { margin-top: 24px; width: 284px; }
+.login-box .list-form-sta { margin-top: 22px; }
+
+.login-box .code-verc { }
+.login-box .code-verc img { display: block; }
+.login-box .op-box { }
+.login-box .btn-login, .login-box .btn-send, .login-box .btn-signup { float: left; width: 74px; }
+.login-box .link-forget { float: right; line-height: 37px; color: #999; }
+.login-box .link-forget:hover { text-decoration: underline; }
+.login-box .signup-enter { padding-top: 16px; border-top: solid 1px #484D4F; }
+.login-box .link-signup { color: #999; }
+.login-box .link-signup:hover { text-decoration: underline; }
+
+.login-box .login-form .txt-inf { margin-top: 20px; line-height: 18px; color: #999; }
+
+/*gallery*/
+#user { margin: 0 auto; padding-top: 101px; width: 978px; }
+#user .inner-box { position: relative; z-index: 9; height: 90px; background: #F74F4F; }
+#user .head-box { float: left; width: 90px; height: 90px; overflow: hidden; }
+#user .head-box img { width: 90px; height: 90px; display: block; }
+#user .name-box, #user .title-albums, #user .title-box { float: left; margin-top: 17px; height: 56px; line-height: 56px; font-size: 36px; overflow: hidden; zoom: 1; }
+#user .name-box { width: 300px; }
+#user .name-box span, #user .title-albums span { padding-left: 39px; }
+#user .title-albums { }
+#user .title-albums span { }
+#user .title-box { margin-left: 23px; width: 485px; font-size: 14px; }
+#user .title-box .show { float: left; cursor: pointer; }
+#user .title-box .show span { padding-right: 12px; font-size: 36px; }
+#user .title-box .edit { float: left; padding: 10px 20px; width: 445px; height: 36px; background: #BB3A3A; overflow: hidden; display: none; }
+#user .title-box .edit input { float: left; width: 100%; height: 36px; color: #fff; font-size: 36px; background: #BB3A3A; border: none; overflow: hidden; }
+#user .share-box { float: right; padding: 28px 18px 0 0; overflow: hidden; display: none; }
+#user .share-box a { float: left; margin-left: 12px; width: 34px; height: 34px; display: block; }
+#user .share-box a.weibo { background-position: -131px -216px; }
+#user .share-box a.qq { background-position: -166px -216px; }
+#user .share-box a.souhu { background-position: -201px -216px; }
+#user .share-box a.renren { background-position: -236px -216px; }
+#user .share-box a.email { background-position: -271px -216px; }
+#user .link-box { float: right; width: 79px; height: 90px; overflow: hidden; display: block; }
+#user .albums-box { background-position: -131px -125px; }
+#user .gallery-box { background-position: -131px -34px; }
+#user .show-inf { position: absolute; top: 90px; left: 0; width: 100%; height: 162px; background: #BC3A3A; display: none; }
+#user .show-inf .inner { position: relative; z-index: 99; padding: 19px 30px; }
+#user .show-inf .inf { float: left; width: 208px; }
+#user .show-inf .inf .name { margin-top: 5px; line-height: 18px; font-size: 18px; font-weight: bold; }
+#user .show-inf .inf .txt { margin-top: 20px; line-height: 12px; overflow: hidden; zoom: 1; }
+#user .show-inf .inf .txt i { float: left; margin: 1px 12px 0 0; width: 15px; height: 11px; font-size: 0; overflow: hidden; display: block; }
+#user .show-inf .inf .txt i.email { background-position: -94px 0; }
+#user .show-inf .inf .txt i.tel { background-position: -110px 0; }
+#user .show-inf .message { float: left; padding-left: 40px; width: 655px; height: 125px; line-height: 20px; border-left: solid 1px #fff; }
+#user .show-inf .close { position: absolute; top: 162px; right: 0; width: 54px; height: 54px; background-position: -211px -161px; display: block; }
+
+.albums-all-op { padding-top: 30px; height: 37px; line-height: 37px; text-align: center; overflow: hidden; }
+.albums-all-op span { padding-right: 18px; font-size: 20px; font-weight: bold; }
+.albums-all-op a { display: inline-block; }
+.albums-all-op .btn-all, .albums-all-op .btn-ok { margin-left: 8px; width: 97px; background: #5E6367; }
+.albums-all-op .link-cancle { margin-left: 20px; color: #666; font-size: 14px; }
+.albums-all-op .link-cancle:hover { text-decoration: underline; }
+
+/*settings*/
+.settings-box { padding: 35px 0 85px; }
+.settings-box h2 { padding-bottom: 20px; line-height: 18px; font-size: 18px; font-weight: bold; }
+.settings-box .head-box { padding: 8px 0 20px; width: 130px; height: 130px; overflow: hidden; }
+.settings-box .head-box i { width: 130px; height: 130px; background-position: 0 -120px; display: block; }
+.settings-box .login-form { }
+.settings-box .list-form-sta, .settings-box .list-form-pos { margin-top: 13px; }
+.settings-box .list-form-sta li.key { padding: 0; }
+.settings-box .list-form-sta li.value .input-txt { width: 191px; }
+.settings-box .list-form-sta li.success, .settings-box .list-form-sta li.ts { left: 245px; }
+.settings-box .list-form-sta .input-textarea { float: left; padding: 10px; width: 415px; height: 160px; line-height: 20px; color: #787B7D; background: #292F31; border: none; overflow-y: auto; }
+.settings-box .op-box { padding: 26px 0 38px; }
+.settings-box .op-box a { float: left; }
+.settings-box .btn-save { width: 74px; }
+.settings-box .btn-cancle { margin-left: 20px; line-height: 37px; color: #787b7d; }
+.settings-box .btn-cancle:hover { text-decoration: underline; }
+
+.settings-box .line { padding-top: 35px; border-top: solid 1px #484D4F; }
+.settings-box .list-form-pos { width: 283px; }
+
+/*albums*/
+.container-albums { margin-left: 9px; padding-top: 30px; overflow: hidden; }
+.container-albums .cell { float: left; margin: 0 16px 16px 0; width: 315px; height: 236px; overflow: hidden; }
+.container-albums .list-img-wrap { width: 100%; height: 100%; overflow: hidden; }
+.container-albums .list-img { width: 320px; overflow: hidden; }
+.container-albums .list-img dd { float: left; margin: -1px 0 0 -1px; width: 78px; height: 78px; border: solid 1px #878787; overflow: hidden; }
+.container-albums .list-img dd img { }
+
+.container-albums .name-box { display: block; }
+.container-albums .albums-edit { position: absolute; top: 76px; left: 32px; display: none; }
+.container-albums .cell.hover .albums-edit { display: block; }
+.container-albums .albums-edit .btn-edit { width: 55px; }
+.container-albums .op-box { top: 76px; }

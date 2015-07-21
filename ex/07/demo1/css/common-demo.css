@@ -1,0 +1,59 @@
+﻿html { color: #000; font-family: 微软雅黑, 宋体; font-size: 12px; -webkit-text-size-adjust: none; background: #fff; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+li { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ''; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input, textarea, select { outline: none; font-family: inherit; font-size: inherit; font-weight: inherit; resize: none; *font-size:100%;}
+legend { color: #000; }
+body { overflow-x: hidden; }
+a { color: #000; text-decoration: none; outline: none; }
+.clearfix:after { clear: both; content: ""; display: block; height: 0; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { }
+.clearfix { display: block; }
+
+/*class*/
+.pos-box { position: relative; }
+
+/*page*/
+.header-wrap { position: relative; height: 113px; background: url(../images/demo/bg_line_header.png) repeat-x; }
+.header { position: absolute; top: 0; left: 50%; margin-left: -500px; height: 113px; background: url(../images/demo/bg_header_repeat.png) repeat-x; overflow: hidden; }
+.header-con { margin: 0 auto; width: 1000px; height: 133px; background: url(../images/demo/con_header.png) no-repeat; overflow: hidden; }
+.header-input { float: right; margin-top: 77px; width: 140px; height: 28px; background: #fff; border: solid 1px #CDCDCD; border-radius: 14px; overflow: hidden; }
+.header-input .pos-box { position: relative; }
+.header-input input { float: left; padding: 0 10px; width: 150px; height: 28px; line-height: 28px; border: none; overflow: hidden; }
+.header-input i { position: absolute; top: 0; right: 0; width: 31px; height: 28px; background: url(../images/demo/ico_search.png) no-repeat; display: block; overflow: hidden; cursor: pointer; }
+
+.content { }
+.banner { position: relative; height: 596px; }
+.banner li { position: absolute; top: 0; left: 0; width: 100%; height: 596px; overflow: hidden; }
+
+.new-wrap { position: relative; margin: 0 auto; width: 1600px; height: 416px; background: url(../images/demo/bg_new.png) repeat-x center top; }
+.new { position: absolute; top: 0; left: 50%; margin-left: -500px; background: url(../images/demo/bg_new_repeat.png) repeat-x; overflow: hidden; }
+.new-list-wrap { margin: 0 auto; padding-top: 104px; width: 1000px; background: url(../images/demo/bg_new.png) center top; overflow: hidden; }
+.new-list { width: 1200px; overflow: hidden; }
+.new-list li { float: left; margin-right: 32px; width: 312px; height: 312px; overflow: hidden; }
+.new-list img { position: absolute; top: 0; left: 0; display: block; }
+.new-list img.hover { display: none; }
+
+.hot-wrap { position: relative; height: 563px; }
+.hot { position: absolute; top: 0; left: 50%; margin-left: -800px; background: url(../images/demo/bg_hot_repeat.png) repeat-x; overflow: hidden; }
+.hot .tab-content-wrap { margin: 0 auto; width: 1600px; background: url(../images/demo/bg_hot.png) no-repeat center top; overflow: hidden; }
+.hot .tab-content-wrap .op-box { margin: 63px auto 0; width: 304px; height: 23px; overflow: hidden; }
+.hot .tab-content-wrap .op-box a { width: 23px; height: 23px; display: block; }
+.hot .tab-content-wrap .op-box a.prev { float: left; background: url(../images/demo/btn_prev.png) no-repeat; }
+.hot .tab-content-wrap .op-box a.next { float: right; background: url(../images/demo/btn_next.png) no-repeat; }
+.hot .tab-content { position: relative; margin-top: 24px; width: 100%; height: 453px; }
+.hot .tab-content li { position: absolute; top: 0; left: 0; width: 100%; height: 453px; }
+.hot .tab-content .inner-box { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.hot .tab-content .item { position: absolute; top: 0; left: 1600px; width: 1600px; height: 453px; }
+
+.footer-wrap { position: relative; height: 488px; }
+.footer { position: absolute; top: 0; left: 50%; margin-left: -800px; width: 1600px; height: 488px; background: url(../images/demo/con_footer.png) repeat-x; overflow: hidden; }

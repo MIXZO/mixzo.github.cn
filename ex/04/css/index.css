@@ -1,0 +1,25 @@
+﻿/*style*/
+.banner { margin: 0 auto; height: 603px; }
+.banner .tab-content-wrap { margin: 0 auto; width: 1000px; }
+.banner .tab-content { position: relative; width: 1000px; height: 597px; }
+.banner .tab-content li { position: absolute; top: 0; left: 0; width: 1000px; height: 597px; }
+.banner .tab-content .inner-box { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.banner .tab-content .item-img, .banner .tab-content .item-txt { position: absolute; top: 0; left: 1000px; width: 1000px; height: 597px; }
+.banner .tab-content .item-img { }
+.banner .tab-content .item-txt { }
+.banner .tab-title-wrap { position: relative; z-index: 1; margin: -114px auto 0; width: 1000px; height: 120px; }
+.banner .tab-title { position: relative; z-index: 1; height: 120px; overflow: hidden; }
+.banner .tab-title li { float: left; width: 250px; height: 114px; overflow: hidden; cursor: pointer; }
+.banner .tab-title li .pos-box { position: relative; }
+.banner .tab-title li a { position: absolute; top: 114px; left: 0; width: 250px; height: 114px; display: block; }
+.banner .tab-title-wrap .op-bottom { position: relative; z-index: 0; margin-top: -6px; height: 6px; }
+.banner .tab-title-wrap .line-bottom, .banner .tab-title-wrap .line-current, .banner .tab-title-wrap .line-hover { position: absolute; top: 0; left: 0; width: 1000px; height: 6px; font-size: 0; overflow: hidden; }
+.banner .tab-title-wrap .line-bottom { background: #000; filter: alpha(opacity=30); opacity: 0.3; }
+.banner .tab-title-wrap .line-current { width: 250px; background: #000; }
+.banner .tab-title-wrap .line-hover { width: 250px; background: #fff; filter: alpha(opacity=30); opacity: 0.3; }
+
+.list-gg-wrap { padding: 70px 0 57px; width: 1000px; overflow: hidden; }
+.list-gg-wrap ul { width: 1200px; overflow: hidden; }
+.list-gg-wrap li { float: left; margin-right: 114px; }
+.list-gg-wrap li a { }
+.list-gg-wrap li img { width: 257px; height: 160px; display: block; }

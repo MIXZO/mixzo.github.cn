@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "webUI", ".", "{BACC2B03-7114-4CF5-A05F-3C0CE55E715F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		Debug.AspNetCompiler.VirtualPath = "/webUI"
+		Debug.AspNetCompiler.PhysicalPath = "..\webUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\webUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/webUI"
+		Release.AspNetCompiler.PhysicalPath = "..\webUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\webUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65307"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACC2B03-7114-4CF5-A05F-3C0CE55E715F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACC2B03-7114-4CF5-A05F-3C0CE55E715F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
